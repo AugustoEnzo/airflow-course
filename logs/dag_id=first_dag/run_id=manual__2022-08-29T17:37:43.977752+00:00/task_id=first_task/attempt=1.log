@@ -1,0 +1,28 @@
+[2022-08-29T13:37:46.875-0400] {taskinstance.py:1171} INFO - Dependencies all met for <TaskInstance: first_dag.first_task manual__2022-08-29T17:37:43.977752+00:00 [queued]>
+[2022-08-29T13:37:46.894-0400] {taskinstance.py:1171} INFO - Dependencies all met for <TaskInstance: first_dag.first_task manual__2022-08-29T17:37:43.977752+00:00 [queued]>
+[2022-08-29T13:37:46.895-0400] {taskinstance.py:1368} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-29T13:37:46.895-0400] {taskinstance.py:1369} INFO - Starting attempt 1 of 6
+[2022-08-29T13:37:46.895-0400] {taskinstance.py:1370} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-29T13:37:46.935-0400] {taskinstance.py:1389} INFO - Executing <Task(BashOperator): first_task> on 2022-08-29 17:37:43.977752+00:00
+[2022-08-29T13:37:46.938-0400] {standard_task_runner.py:52} INFO - Started process 2325 to run task
+[2022-08-29T13:37:46.942-0400] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'first_dag', 'first_task', 'manual__2022-08-29T17:37:43.977752+00:00', '--job-id', '9', '--raw', '--subdir', '/home/augenz/PycharmProjects/airflow/dags/first_dag.py', '--cfg-path', '/run/user/1000/app/com.jetbrains.PyCharm-Community/tmpsm5d8iwm', '--error-file', '/run/user/1000/app/com.jetbrains.PyCharm-Community/tmpkxo0gexv']
+[2022-08-29T13:37:46.944-0400] {standard_task_runner.py:80} INFO - Job 9: Subtask first_task
+[2022-08-29T13:37:47.112-0400] {task_command.py:371} INFO - Running <TaskInstance: first_dag.first_task manual__2022-08-29T17:37:43.977752+00:00 [running]> on host pop-os.localdomain
+[2022-08-29T13:37:47.298-0400] {taskinstance.py:1581} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=admin
+AIRFLOW_CTX_DAG_ID=first_dag
+AIRFLOW_CTX_TASK_ID=first_task
+AIRFLOW_CTX_EXECUTION_DATE=2022-08-29T17:37:43.977752+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-08-29T17:37:43.977752+00:00
+[2022-08-29T13:37:47.299-0400] {subprocess.py:62} INFO - Tmp dir root location: 
+ /run/user/1000/app/com.jetbrains.PyCharm-Community
+[2022-08-29T13:37:47.300-0400] {subprocess.py:74} INFO - Running command: ['/usr/bin/bash', '-c', 'echo hello world, this is the first task!']
+[2022-08-29T13:37:47.323-0400] {subprocess.py:85} INFO - Output:
+[2022-08-29T13:37:47.342-0400] {subprocess.py:92} INFO - hello world, this is the first task!
+[2022-08-29T13:37:47.343-0400] {subprocess.py:96} INFO - Command exited with return code 0
+[2022-08-29T13:37:47.432-0400] {taskinstance.py:1407} INFO - Marking task as SUCCESS. dag_id=first_dag, task_id=first_task, execution_date=20220829T173743, start_date=20220829T173746, end_date=20220829T173747
+[2022-08-29T13:37:47.477-0400] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-08-29T13:37:47.567-0400] {local_task_job.py:279} INFO - 0 downstream tasks scheduled from follow-on schedule check

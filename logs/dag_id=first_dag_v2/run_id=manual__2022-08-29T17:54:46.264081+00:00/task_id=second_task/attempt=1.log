@@ -1,0 +1,35 @@
+[2022-08-29T13:54:53.413-0400] {taskinstance.py:1171} INFO - Dependencies all met for <TaskInstance: first_dag_v2.second_task manual__2022-08-29T17:54:46.264081+00:00 [queued]>
+[2022-08-29T13:54:53.434-0400] {taskinstance.py:1171} INFO - Dependencies all met for <TaskInstance: first_dag_v2.second_task manual__2022-08-29T17:54:46.264081+00:00 [queued]>
+[2022-08-29T13:54:53.435-0400] {taskinstance.py:1368} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-29T13:54:53.435-0400] {taskinstance.py:1369} INFO - Starting attempt 1 of 6
+[2022-08-29T13:54:53.435-0400] {taskinstance.py:1370} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-29T13:54:53.519-0400] {taskinstance.py:1389} INFO - Executing <Task(BashOperator): second_task> on 2022-08-29 17:54:46.264081+00:00
+[2022-08-29T13:54:53.521-0400] {standard_task_runner.py:52} INFO - Started process 2879 to run task
+[2022-08-29T13:54:53.525-0400] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'first_dag_v2', 'second_task', 'manual__2022-08-29T17:54:46.264081+00:00', '--job-id', '11', '--raw', '--subdir', '/home/augenz/PycharmProjects/airflow/dags/first_dag_v2.py', '--cfg-path', '/run/user/1000/app/com.jetbrains.PyCharm-Community/tmp99ruimof', '--error-file', '/run/user/1000/app/com.jetbrains.PyCharm-Community/tmp0_bfgkd6']
+[2022-08-29T13:54:53.526-0400] {standard_task_runner.py:80} INFO - Job 11: Subtask second_task
+[2022-08-29T13:54:53.724-0400] {task_command.py:371} INFO - Running <TaskInstance: first_dag_v2.second_task manual__2022-08-29T17:54:46.264081+00:00 [running]> on host pop-os.localdomain
+[2022-08-29T13:54:53.951-0400] {taskinstance.py:1581} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=admin
+AIRFLOW_CTX_DAG_ID=first_dag_v2
+AIRFLOW_CTX_TASK_ID=second_task
+AIRFLOW_CTX_EXECUTION_DATE=2022-08-29T17:54:46.264081+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-08-29T17:54:46.264081+00:00
+[2022-08-29T13:54:53.953-0400] {subprocess.py:62} INFO - Tmp dir root location: 
+ /run/user/1000/app/com.jetbrains.PyCharm-Community
+[2022-08-29T13:54:53.953-0400] {subprocess.py:74} INFO - Running command: ['/usr/bin/bash', '-c', "echo I'm the second task."]
+[2022-08-29T13:54:53.963-0400] {subprocess.py:85} INFO - Output:
+[2022-08-29T13:54:53.969-0400] {subprocess.py:92} INFO - /usr/bin/bash: -c: line 1: unexpected EOF while looking for matching `''
+[2022-08-29T13:54:53.969-0400] {subprocess.py:92} INFO - /usr/bin/bash: -c: line 2: syntax error: unexpected end of file
+[2022-08-29T13:54:53.970-0400] {subprocess.py:96} INFO - Command exited with return code 2
+[2022-08-29T13:54:54.008-0400] {taskinstance.py:1902} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/operators/bash.py", line 196, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 2.
+[2022-08-29T13:54:54.021-0400] {taskinstance.py:1407} INFO - Marking task as UP_FOR_RETRY. dag_id=first_dag_v2, task_id=second_task, execution_date=20220829T175446, start_date=20220829T175453, end_date=20220829T175454
+[2022-08-29T13:54:54.062-0400] {standard_task_runner.py:92} ERROR - Failed to execute job 11 for task second_task (Bash command failed. The command returned a non-zero exit code 2.; 2879)
+[2022-08-29T13:54:54.104-0400] {local_task_job.py:156} INFO - Task exited with return code 1
+[2022-08-29T13:54:54.235-0400] {local_task_job.py:279} INFO - 0 downstream tasks scheduled from follow-on schedule check

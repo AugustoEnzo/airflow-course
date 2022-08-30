@@ -1,0 +1,133 @@
+[2022-08-29T19:13:57.857-0400] {processor.py:153} INFO - Started process (PID=9683) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill.py
+[2022-08-29T19:13:57.858-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill.py for tasks to queue
+[2022-08-29T19:13:57.860-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:13:57.859-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill.py
+[2022-08-29T19:13:57.864-0400] {processor.py:652} WARNING - No viable dags retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill.py
+[2022-08-29T19:13:57.898-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill.py took 0.047 seconds
+[2022-08-29T19:14:28.138-0400] {processor.py:153} INFO - Started process (PID=9706) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill.py
+[2022-08-29T19:14:28.142-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill.py for tasks to queue
+[2022-08-29T19:14:28.144-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:14:28.144-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill.py
+[2022-08-29T19:14:28.148-0400] {processor.py:652} WARNING - No viable dags retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill.py
+[2022-08-29T19:14:28.184-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill.py took 0.052 seconds
+[2022-08-29T19:14:58.465-0400] {processor.py:153} INFO - Started process (PID=9719) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill.py
+[2022-08-29T19:14:58.469-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill.py for tasks to queue
+[2022-08-29T19:14:58.471-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:14:58.470-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill.py
+[2022-08-29T19:14:58.475-0400] {processor.py:652} WARNING - No viable dags retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill.py
+[2022-08-29T19:14:58.511-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill.py took 0.051 seconds
+[2022-08-29T19:15:28.793-0400] {processor.py:153} INFO - Started process (PID=9743) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill.py
+[2022-08-29T19:15:28.816-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill.py for tasks to queue
+[2022-08-29T19:15:28.818-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:15:28.817-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill.py
+[2022-08-29T19:15:28.827-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:15:28.825-0400] {dagbag.py:321} ERROR - Failed to import: /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill.py
+Traceback (most recent call last):
+  File "/home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill.py", line 12, in <module>
+    with DAG() as dag:
+TypeError: __init__() missing 1 required positional argument: 'dag_id'
+[2022-08-29T19:15:28.827-0400] {processor.py:652} WARNING - No viable dags retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill.py
+[2022-08-29T19:15:28.924-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill.py took 0.136 seconds
+[2022-08-29T19:15:59.088-0400] {processor.py:153} INFO - Started process (PID=9756) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill.py
+[2022-08-29T19:15:59.092-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill.py for tasks to queue
+[2022-08-29T19:15:59.092-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:15:59.092-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill.py
+[2022-08-29T19:15:59.098-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:15:59.097-0400] {dagbag.py:321} ERROR - Failed to import: /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill.py
+Traceback (most recent call last):
+  File "/home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill.py", line 12, in <module>
+    with DAG() as dag:
+TypeError: __init__() missing 1 required positional argument: 'dag_id'
+[2022-08-29T19:15:59.099-0400] {processor.py:652} WARNING - No viable dags retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill.py
+[2022-08-29T19:15:59.162-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill.py took 0.079 seconds
+[2022-08-29T19:16:29.456-0400] {processor.py:153} INFO - Started process (PID=9769) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill.py
+[2022-08-29T19:16:29.461-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill.py for tasks to queue
+[2022-08-29T19:16:29.462-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:16:29.462-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill.py
+[2022-08-29T19:16:29.468-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:16:29.466-0400] {dagbag.py:321} ERROR - Failed to import: /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill.py
+Traceback (most recent call last):
+  File "/home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill.py", line 12, in <module>
+    with DAG() as dag:
+TypeError: __init__() missing 1 required positional argument: 'dag_id'
+[2022-08-29T19:16:29.469-0400] {processor.py:652} WARNING - No viable dags retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill.py
+[2022-08-29T19:16:29.567-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill.py took 0.116 seconds
+[2022-08-29T19:16:59.777-0400] {processor.py:153} INFO - Started process (PID=9783) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill.py
+[2022-08-29T19:16:59.781-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill.py for tasks to queue
+[2022-08-29T19:16:59.782-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:16:59.781-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill.py
+[2022-08-29T19:16:59.790-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:16:59.787-0400] {dagbag.py:321} ERROR - Failed to import: /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill.py
+Traceback (most recent call last):
+  File "/home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill.py", line 12, in <module>
+    with DAG() as dag:
+TypeError: __init__() missing 1 required positional argument: 'dag_id'
+[2022-08-29T19:16:59.790-0400] {processor.py:652} WARNING - No viable dags retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill.py
+[2022-08-29T19:16:59.856-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill.py took 0.084 seconds
+[2022-08-29T19:17:30.120-0400] {processor.py:153} INFO - Started process (PID=9805) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill.py
+[2022-08-29T19:17:30.125-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill.py for tasks to queue
+[2022-08-29T19:17:30.127-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:17:30.127-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill.py
+[2022-08-29T19:17:30.131-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:17:30.129-0400] {dagbag.py:321} ERROR - Failed to import: /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill.py
+Traceback (most recent call last):
+  File "/home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 846, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 983, in get_code
+  File "<frozen importlib._bootstrap_external>", line 913, in source_to_code
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill.py", line 14
+    ) as dag:
+    ^
+SyntaxError: invalid syntax
+[2022-08-29T19:17:30.131-0400] {processor.py:652} WARNING - No viable dags retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill.py
+[2022-08-29T19:17:30.203-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill.py took 0.088 seconds
+[2022-08-29T19:18:00.536-0400] {processor.py:153} INFO - Started process (PID=9828) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill.py
+[2022-08-29T19:18:00.540-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill.py for tasks to queue
+[2022-08-29T19:18:00.541-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:18:00.541-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill.py
+[2022-08-29T19:18:00.545-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:18:00.543-0400] {dagbag.py:321} ERROR - Failed to import: /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill.py
+Traceback (most recent call last):
+  File "/home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 846, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 983, in get_code
+  File "<frozen importlib._bootstrap_external>", line 913, in source_to_code
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill.py", line 14
+    ) as dag:
+    ^
+SyntaxError: invalid syntax
+[2022-08-29T19:18:00.545-0400] {processor.py:652} WARNING - No viable dags retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill.py
+[2022-08-29T19:18:00.616-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill.py took 0.085 seconds
+[2022-08-29T19:18:30.805-0400] {processor.py:153} INFO - Started process (PID=9849) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill.py
+[2022-08-29T19:18:30.809-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill.py for tasks to queue
+[2022-08-29T19:18:30.810-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:18:30.810-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill.py
+[2022-08-29T19:18:30.813-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:18:30.812-0400] {dagbag.py:321} ERROR - Failed to import: /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill.py
+Traceback (most recent call last):
+  File "/home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 846, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 983, in get_code
+  File "<frozen importlib._bootstrap_external>", line 913, in source_to_code
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill.py", line 14
+    ) as dag:
+    ^
+SyntaxError: invalid syntax
+[2022-08-29T19:18:30.814-0400] {processor.py:652} WARNING - No viable dags retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill.py
+[2022-08-29T19:18:30.871-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill.py took 0.071 seconds
+[2022-08-29T19:19:01.166-0400] {processor.py:153} INFO - Started process (PID=9868) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill.py
+[2022-08-29T19:19:01.171-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill.py for tasks to queue
+[2022-08-29T19:19:01.172-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:19:01.172-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill.py
+[2022-08-29T19:19:01.186-0400] {processor.py:650} INFO - DAG(s) dict_keys(['dag_with_catchup_backfill_v01']) retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill.py
+[2022-08-29T19:19:01.368-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:19:01.368-0400] {manager.py:508} INFO - Created Permission View: can delete on DAG:dag_with_catchup_backfill_v01
+[2022-08-29T19:19:01.393-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:19:01.393-0400] {manager.py:508} INFO - Created Permission View: can edit on DAG:dag_with_catchup_backfill_v01
+[2022-08-29T19:19:01.426-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:19:01.426-0400] {manager.py:508} INFO - Created Permission View: can read on DAG:dag_with_catchup_backfill_v01
+[2022-08-29T19:19:01.427-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:19:01.427-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T19:19:01.441-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:19:01.441-0400] {dag.py:2448} INFO - Creating ORM DAG for dag_with_catchup_backfill_v01
+[2022-08-29T19:19:01.465-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:19:01.464-0400] {dag.py:2977} INFO - Setting next_dagrun for dag_with_catchup_backfill_v01 to 2022-08-29T00:00:00+00:00, run_after=2022-08-30T00:00:00+00:00
+[2022-08-29T19:19:01.543-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill.py took 0.382 seconds

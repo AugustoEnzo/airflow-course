@@ -1,0 +1,328 @@
+[2022-08-29T12:33:14.322-0400] {processor.py:153} INFO - Started process (PID=371) to work on /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-08-29T12:33:14.323-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2022-08-29T12:33:14.324-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:33:14.324-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-08-29T12:33:14.334-0400] {processor.py:650} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-08-29T12:33:14.525-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:33:14.524-0400] {manager.py:508} INFO - Created Permission View: can delete on DAG:tutorial_etl_dag
+[2022-08-29T12:33:14.566-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:33:14.566-0400] {manager.py:508} INFO - Created Permission View: can read on DAG:tutorial_etl_dag
+[2022-08-29T12:33:14.616-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:33:14.616-0400] {manager.py:508} INFO - Created Permission View: can edit on DAG:tutorial_etl_dag
+[2022-08-29T12:33:14.617-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:33:14.617-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T12:33:14.634-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:33:14.634-0400] {dag.py:2448} INFO - Creating ORM DAG for tutorial_etl_dag
+[2022-08-29T12:33:14.664-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:33:14.663-0400] {dag.py:2977} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2022-08-29T12:33:14.726-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.409 seconds
+[2022-08-29T12:33:45.207-0400] {processor.py:153} INFO - Started process (PID=411) to work on /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-08-29T12:33:45.212-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2022-08-29T12:33:45.213-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:33:45.213-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-08-29T12:33:45.222-0400] {processor.py:650} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-08-29T12:33:45.266-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:33:45.266-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T12:33:45.304-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:33:45.304-0400] {dag.py:2977} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2022-08-29T12:33:45.352-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.149 seconds
+[2022-08-29T12:34:15.511-0400] {processor.py:153} INFO - Started process (PID=446) to work on /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-08-29T12:34:15.513-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2022-08-29T12:34:15.514-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:34:15.514-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-08-29T12:34:15.534-0400] {processor.py:650} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-08-29T12:34:15.585-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:34:15.585-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T12:34:15.633-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:34:15.632-0400] {dag.py:2977} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2022-08-29T12:34:15.676-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.171 seconds
+[2022-08-29T12:34:46.214-0400] {processor.py:153} INFO - Started process (PID=481) to work on /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-08-29T12:34:46.218-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2022-08-29T12:34:46.219-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:34:46.219-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-08-29T12:34:46.232-0400] {processor.py:650} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-08-29T12:34:46.281-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:34:46.281-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T12:34:46.332-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:34:46.332-0400] {dag.py:2977} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2022-08-29T12:34:46.371-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.162 seconds
+[2022-08-29T12:35:17.154-0400] {processor.py:153} INFO - Started process (PID=536) to work on /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-08-29T12:35:17.157-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2022-08-29T12:35:17.158-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:35:17.157-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-08-29T12:35:17.169-0400] {processor.py:650} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-08-29T12:35:17.210-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:35:17.210-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T12:35:17.248-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:35:17.248-0400] {dag.py:2977} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2022-08-29T12:35:17.293-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.144 seconds
+[2022-08-29T12:35:48.355-0400] {processor.py:153} INFO - Started process (PID=581) to work on /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-08-29T12:35:48.358-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2022-08-29T12:35:48.359-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:35:48.359-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-08-29T12:35:48.371-0400] {processor.py:650} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-08-29T12:35:48.835-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:35:48.834-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T12:35:48.869-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:35:48.869-0400] {dag.py:2977} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2022-08-29T12:35:48.905-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.556 seconds
+[2022-08-29T12:36:19.355-0400] {processor.py:153} INFO - Started process (PID=615) to work on /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-08-29T12:36:19.358-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2022-08-29T12:36:19.358-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:36:19.358-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-08-29T12:36:19.370-0400] {processor.py:650} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-08-29T12:36:19.993-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:36:19.992-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T12:36:20.020-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:36:20.020-0400] {dag.py:2977} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2022-08-29T12:36:20.060-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.709 seconds
+[2022-08-29T12:36:50.283-0400] {processor.py:153} INFO - Started process (PID=651) to work on /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-08-29T12:36:50.287-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2022-08-29T12:36:50.288-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:36:50.288-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-08-29T12:36:50.299-0400] {processor.py:650} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-08-29T12:36:50.774-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:36:50.773-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T12:36:50.802-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:36:50.801-0400] {dag.py:2977} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2022-08-29T12:36:50.856-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.577 seconds
+[2022-08-29T12:37:22.965-0400] {processor.py:153} INFO - Started process (PID=706) to work on /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-08-29T12:37:22.976-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2022-08-29T12:37:22.996-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:37:22.996-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-08-29T12:37:23.019-0400] {processor.py:650} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-08-29T12:37:24.237-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:37:24.236-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T12:37:24.296-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:37:24.296-0400] {dag.py:2977} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2022-08-29T12:37:24.376-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 1.419 seconds
+[2022-08-29T12:37:56.203-0400] {processor.py:153} INFO - Started process (PID=752) to work on /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-08-29T12:37:56.208-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2022-08-29T12:37:56.209-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:37:56.209-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-08-29T12:37:56.229-0400] {processor.py:650} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-08-29T12:37:57.181-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:37:57.180-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T12:37:57.245-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:37:57.244-0400] {dag.py:2977} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2022-08-29T12:37:57.306-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 1.110 seconds
+[2022-08-29T12:38:28.183-0400] {processor.py:153} INFO - Started process (PID=804) to work on /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-08-29T12:38:28.213-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2022-08-29T12:38:28.218-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:38:28.216-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-08-29T12:38:28.257-0400] {processor.py:650} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-08-29T12:38:29.289-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:38:29.288-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T12:38:29.376-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:38:29.375-0400] {dag.py:2977} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2022-08-29T12:38:29.422-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 1.245 seconds
+[2022-08-29T12:38:59.552-0400] {processor.py:153} INFO - Started process (PID=839) to work on /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-08-29T12:38:59.559-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2022-08-29T12:38:59.562-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:38:59.561-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-08-29T12:38:59.578-0400] {processor.py:650} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-08-29T12:39:00.078-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:39:00.078-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T12:39:00.105-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:39:00.104-0400] {dag.py:2977} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2022-08-29T12:39:00.141-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.598 seconds
+[2022-08-29T12:39:31.176-0400] {processor.py:153} INFO - Started process (PID=874) to work on /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-08-29T12:39:31.179-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2022-08-29T12:39:31.180-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:39:31.180-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-08-29T12:39:31.194-0400] {processor.py:650} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-08-29T12:39:31.667-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:39:31.667-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T12:39:31.693-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:39:31.693-0400] {dag.py:2977} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2022-08-29T12:39:31.728-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.557 seconds
+[2022-08-29T12:40:02.816-0400] {processor.py:153} INFO - Started process (PID=913) to work on /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-08-29T12:40:02.819-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2022-08-29T12:40:02.820-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:40:02.819-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-08-29T12:40:02.829-0400] {processor.py:650} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-08-29T12:40:03.398-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:40:03.398-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T12:40:03.426-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:40:03.426-0400] {dag.py:2977} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2022-08-29T12:40:03.465-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.654 seconds
+[2022-08-29T12:40:33.522-0400] {processor.py:153} INFO - Started process (PID=948) to work on /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-08-29T12:40:33.533-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2022-08-29T12:40:33.534-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:40:33.534-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-08-29T12:40:33.544-0400] {processor.py:650} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-08-29T12:40:33.980-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:40:33.979-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T12:40:34.012-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:40:34.012-0400] {dag.py:2977} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2022-08-29T12:40:34.073-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.556 seconds
+[2022-08-29T12:41:04.408-0400] {processor.py:153} INFO - Started process (PID=982) to work on /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-08-29T12:41:04.419-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2022-08-29T12:41:04.421-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:41:04.420-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-08-29T12:41:04.431-0400] {processor.py:650} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-08-29T12:41:04.857-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:41:04.856-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T12:41:04.883-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:41:04.882-0400] {dag.py:2977} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2022-08-29T12:41:04.927-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.523 seconds
+[2022-08-29T12:41:35.853-0400] {processor.py:153} INFO - Started process (PID=1026) to work on /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-08-29T12:41:35.854-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2022-08-29T12:41:35.856-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:41:35.855-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-08-29T12:41:35.865-0400] {processor.py:650} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-08-29T12:41:36.488-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:41:36.488-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T12:41:36.515-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:41:36.514-0400] {dag.py:2977} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2022-08-29T12:41:36.573-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.725 seconds
+[2022-08-29T12:42:07.549-0400] {processor.py:153} INFO - Started process (PID=1060) to work on /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-08-29T12:42:07.560-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2022-08-29T12:42:07.561-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:42:07.561-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-08-29T12:42:07.571-0400] {processor.py:650} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-08-29T12:42:08.027-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:42:08.026-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T12:42:08.065-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:42:08.064-0400] {dag.py:2977} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2022-08-29T12:42:08.111-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.567 seconds
+[2022-08-29T12:42:38.341-0400] {processor.py:153} INFO - Started process (PID=1094) to work on /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-08-29T12:42:38.352-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2022-08-29T12:42:38.353-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:42:38.352-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-08-29T12:42:38.362-0400] {processor.py:650} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-08-29T12:42:38.862-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:42:38.862-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T12:42:38.889-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:42:38.889-0400] {dag.py:2977} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2022-08-29T12:42:38.931-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.596 seconds
+[2022-08-29T12:43:09.300-0400] {processor.py:153} INFO - Started process (PID=1129) to work on /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-08-29T12:43:09.302-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2022-08-29T12:43:09.304-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:43:09.303-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-08-29T12:43:09.314-0400] {processor.py:650} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-08-29T12:43:09.766-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:43:09.766-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T12:43:09.793-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:43:09.793-0400] {dag.py:2977} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2022-08-29T12:43:09.828-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.533 seconds
+[2022-08-29T12:43:40.226-0400] {processor.py:153} INFO - Started process (PID=1163) to work on /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-08-29T12:43:40.229-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2022-08-29T12:43:40.231-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:43:40.230-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-08-29T12:43:40.241-0400] {processor.py:650} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-08-29T12:43:40.754-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:43:40.753-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T12:43:40.780-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:43:40.780-0400] {dag.py:2977} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2022-08-29T12:43:40.815-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.594 seconds
+[2022-08-29T12:44:11.172-0400] {processor.py:153} INFO - Started process (PID=1197) to work on /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-08-29T12:44:11.174-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2022-08-29T12:44:11.175-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:44:11.175-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-08-29T12:44:11.186-0400] {processor.py:650} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-08-29T12:44:11.726-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:44:11.725-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T12:44:11.760-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:44:11.760-0400] {dag.py:2977} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2022-08-29T12:44:11.821-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.654 seconds
+[2022-08-29T12:44:42.062-0400] {processor.py:153} INFO - Started process (PID=1245) to work on /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-08-29T12:44:42.074-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2022-08-29T12:44:42.075-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:44:42.075-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-08-29T12:44:42.085-0400] {processor.py:650} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-08-29T12:44:42.702-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:44:42.701-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T12:44:42.727-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:44:42.727-0400] {dag.py:2977} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2022-08-29T12:44:42.775-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.717 seconds
+[2022-08-29T12:45:12.848-0400] {processor.py:153} INFO - Started process (PID=1279) to work on /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-08-29T12:45:12.850-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2022-08-29T12:45:12.851-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:45:12.851-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-08-29T12:45:12.864-0400] {processor.py:650} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-08-29T12:45:13.338-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:45:13.338-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T12:45:13.364-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:45:13.364-0400] {dag.py:2977} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2022-08-29T12:45:13.396-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.553 seconds
+[2022-08-29T12:45:43.997-0400] {processor.py:153} INFO - Started process (PID=1313) to work on /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-08-29T12:45:44.009-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2022-08-29T12:45:44.010-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:45:44.010-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-08-29T12:45:44.020-0400] {processor.py:650} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-08-29T12:45:44.502-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:45:44.502-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T12:45:44.540-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:45:44.539-0400] {dag.py:2977} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2022-08-29T12:45:44.576-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.584 seconds
+[2022-08-29T12:46:15.016-0400] {processor.py:153} INFO - Started process (PID=1348) to work on /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-08-29T12:46:15.020-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2022-08-29T12:46:15.022-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:46:15.021-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-08-29T12:46:15.036-0400] {processor.py:650} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-08-29T12:46:15.486-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:46:15.485-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T12:46:15.517-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:46:15.516-0400] {dag.py:2977} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2022-08-29T12:46:15.556-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.548 seconds
+[2022-08-29T12:46:45.955-0400] {processor.py:153} INFO - Started process (PID=1383) to work on /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-08-29T12:46:45.967-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2022-08-29T12:46:45.969-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:46:45.969-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-08-29T12:46:45.979-0400] {processor.py:650} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-08-29T12:46:46.452-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:46:46.452-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T12:46:46.479-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:46:46.478-0400] {dag.py:2977} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2022-08-29T12:46:46.519-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.569 seconds
+[2022-08-29T12:47:16.955-0400] {processor.py:153} INFO - Started process (PID=1417) to work on /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-08-29T12:47:16.968-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2022-08-29T12:47:16.969-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:47:16.969-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-08-29T12:47:16.982-0400] {processor.py:650} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-08-29T12:47:17.463-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:47:17.462-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T12:47:17.495-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:47:17.495-0400] {dag.py:2977} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2022-08-29T12:47:17.543-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.591 seconds
+[2022-08-29T12:47:48.151-0400] {processor.py:153} INFO - Started process (PID=1459) to work on /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-08-29T12:47:48.154-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2022-08-29T12:47:48.155-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:47:48.154-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-08-29T12:47:48.164-0400] {processor.py:650} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-08-29T12:47:48.626-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:47:48.626-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T12:47:48.653-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:47:48.652-0400] {dag.py:2977} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2022-08-29T12:47:48.697-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.550 seconds
+[2022-08-29T12:48:18.783-0400] {processor.py:153} INFO - Started process (PID=1493) to work on /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-08-29T12:48:18.786-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2022-08-29T12:48:18.787-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:48:18.786-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-08-29T12:48:18.795-0400] {processor.py:650} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-08-29T12:48:19.256-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:48:19.255-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T12:48:19.286-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:48:19.286-0400] {dag.py:2977} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2022-08-29T12:48:19.318-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.538 seconds
+[2022-08-29T12:48:50.008-0400] {processor.py:153} INFO - Started process (PID=1528) to work on /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-08-29T12:48:50.010-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2022-08-29T12:48:50.011-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:48:50.010-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-08-29T12:48:50.022-0400] {processor.py:650} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-08-29T12:48:50.493-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:48:50.492-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T12:48:50.524-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:48:50.524-0400] {dag.py:2977} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2022-08-29T12:48:50.568-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.566 seconds
+[2022-08-29T12:49:21.088-0400] {processor.py:153} INFO - Started process (PID=1570) to work on /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-08-29T12:49:21.102-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2022-08-29T12:49:21.103-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:49:21.102-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-08-29T12:49:21.111-0400] {processor.py:650} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-08-29T12:49:21.732-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:49:21.731-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T12:49:21.779-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:49:21.778-0400] {dag.py:2977} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2022-08-29T12:49:21.830-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.746 seconds
+[2022-08-29T12:49:51.909-0400] {processor.py:153} INFO - Started process (PID=1606) to work on /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-08-29T12:49:51.926-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2022-08-29T12:49:51.927-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:49:51.927-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-08-29T12:49:51.938-0400] {processor.py:650} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-08-29T12:49:52.571-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:49:52.570-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T12:49:52.599-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:49:52.599-0400] {dag.py:2977} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2022-08-29T12:49:52.659-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.754 seconds
+[2022-08-29T12:50:23.705-0400] {processor.py:153} INFO - Started process (PID=1645) to work on /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-08-29T12:50:23.707-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2022-08-29T12:50:23.708-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:50:23.708-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-08-29T12:50:23.718-0400] {processor.py:650} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-08-29T12:50:24.390-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:50:24.389-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T12:50:24.435-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:50:24.435-0400] {dag.py:2977} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2022-08-29T12:50:24.482-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.782 seconds
+[2022-08-29T12:50:54.867-0400] {processor.py:153} INFO - Started process (PID=1679) to work on /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-08-29T12:50:54.884-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2022-08-29T12:50:54.885-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:50:54.885-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-08-29T12:50:54.895-0400] {processor.py:650} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-08-29T12:50:55.620-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:50:55.620-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T12:50:55.656-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:50:55.655-0400] {dag.py:2977} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2022-08-29T12:50:55.737-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.875 seconds
+[2022-08-29T12:51:26.690-0400] {processor.py:153} INFO - Started process (PID=1717) to work on /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-08-29T12:51:26.694-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2022-08-29T12:51:26.696-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:51:26.696-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-08-29T12:51:26.706-0400] {processor.py:650} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-08-29T12:51:27.313-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:51:27.313-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T12:51:27.345-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:51:27.345-0400] {dag.py:2977} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2022-08-29T12:51:27.408-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.724 seconds
+[2022-08-29T12:51:57.684-0400] {processor.py:153} INFO - Started process (PID=1751) to work on /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-08-29T12:51:57.689-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2022-08-29T12:51:57.690-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:51:57.690-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-08-29T12:51:57.700-0400] {processor.py:650} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-08-29T12:51:58.161-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:51:58.160-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T12:51:58.188-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:51:58.188-0400] {dag.py:2977} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2022-08-29T12:51:58.273-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.594 seconds
+[2022-08-29T12:52:28.708-0400] {processor.py:153} INFO - Started process (PID=1785) to work on /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-08-29T12:52:28.713-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2022-08-29T12:52:28.714-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:52:28.714-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-08-29T12:52:28.724-0400] {processor.py:650} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-08-29T12:52:29.191-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:52:29.190-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T12:52:29.218-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:52:29.218-0400] {dag.py:2977} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2022-08-29T12:52:29.285-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.585 seconds
+[2022-08-29T12:52:59.337-0400] {processor.py:153} INFO - Started process (PID=1819) to work on /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-08-29T12:52:59.356-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2022-08-29T12:52:59.357-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:52:59.357-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-08-29T12:52:59.371-0400] {processor.py:650} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-08-29T12:52:59.960-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:52:59.959-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T12:52:59.987-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:52:59.987-0400] {dag.py:2977} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2022-08-29T12:53:00.057-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.725 seconds
+[2022-08-29T12:53:30.518-0400] {processor.py:153} INFO - Started process (PID=1856) to work on /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-08-29T12:53:30.522-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2022-08-29T12:53:30.523-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:53:30.523-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-08-29T12:53:30.534-0400] {processor.py:650} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-08-29T12:53:31.009-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:53:31.009-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T12:53:31.036-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:53:31.036-0400] {dag.py:2977} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2022-08-29T12:53:31.095-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.583 seconds
+[2022-08-29T12:54:01.421-0400] {processor.py:153} INFO - Started process (PID=1898) to work on /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-08-29T12:54:01.439-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2022-08-29T12:54:01.440-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:54:01.440-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-08-29T12:54:01.452-0400] {processor.py:650} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-08-29T12:54:03.184-0400] {logging_mixin.py:115} WARNING - Exception ignored in: <function _collection_gced at 0x7f3002586dc0>
+[2022-08-29T12:54:03.184-0400] {logging_mixin.py:115} WARNING - Traceback (most recent call last):
+[2022-08-29T12:54:03.185-0400] {logging_mixin.py:115} WARNING -   File "/home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/sqlalchemy/event/registry.py", line 53, in _collection_gced
+[2022-08-29T12:54:03.185-0400] {logging_mixin.py:115} WARNING -     def _collection_gced(ref):
+[2022-08-29T12:54:03.185-0400] {logging_mixin.py:115} WARNING -   File "/home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/dag_processing/manager.py", line 463, in _exit_gracefully
+[2022-08-29T12:54:03.185-0400] {logging_mixin.py:115} WARNING -     self.log.debug("Current Stacktrace is: %s", '\n'.join(map(str, inspect.stack())))
+[2022-08-29T12:54:03.185-0400] {logging_mixin.py:115} WARNING -   File "/usr/lib/python3.9/inspect.py", line 1554, in stack
+[2022-08-29T12:54:03.186-0400] {logging_mixin.py:115} WARNING -     return getouterframes(sys._getframe(1), context)
+[2022-08-29T12:54:03.186-0400] {logging_mixin.py:115} WARNING -   File "/usr/lib/python3.9/inspect.py", line 1531, in getouterframes
+[2022-08-29T12:54:03.187-0400] {logging_mixin.py:115} WARNING -     frameinfo = (frame,) + getframeinfo(frame, context)
+[2022-08-29T12:54:03.187-0400] {logging_mixin.py:115} WARNING -   File "/usr/lib/python3.9/inspect.py", line 1505, in getframeinfo
+[2022-08-29T12:54:03.188-0400] {logging_mixin.py:115} WARNING -     lines, lnum = findsource(frame)
+[2022-08-29T12:54:03.188-0400] {logging_mixin.py:115} WARNING -   File "/usr/lib/python3.9/inspect.py", line 829, in findsource
+[2022-08-29T12:54:03.188-0400] {logging_mixin.py:115} WARNING -     module = getmodule(object, file)
+[2022-08-29T12:54:03.188-0400] {logging_mixin.py:115} WARNING -   File "/usr/lib/python3.9/inspect.py", line 755, in getmodule
+[2022-08-29T12:54:03.189-0400] {logging_mixin.py:115} WARNING -     os.path.realpath(f)] = module.__name__
+[2022-08-29T12:54:03.189-0400] {logging_mixin.py:115} WARNING -   File "/usr/lib/python3.9/posixpath.py", line 392, in realpath
+[2022-08-29T12:54:03.189-0400] {logging_mixin.py:115} WARNING -     path, ok = _joinrealpath(filename[:0], filename, {})
+[2022-08-29T12:54:03.189-0400] {logging_mixin.py:115} WARNING -   File "/usr/lib/python3.9/posixpath.py", line 412, in _joinrealpath
+[2022-08-29T12:54:03.190-0400] {logging_mixin.py:115} WARNING -     name, _, rest = rest.partition(sep)
+[2022-08-29T12:54:03.190-0400] {logging_mixin.py:115} WARNING -   File "/home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/dag_processing/manager.py", line 463, in _exit_gracefully
+[2022-08-29T12:54:03.190-0400] {logging_mixin.py:115} WARNING -     self.log.debug("Current Stacktrace is: %s", '\n'.join(map(str, inspect.stack())))
+[2022-08-29T12:54:03.190-0400] {logging_mixin.py:115} WARNING -   File "/usr/lib/python3.9/inspect.py", line 1554, in stack
+[2022-08-29T12:54:03.191-0400] {logging_mixin.py:115} WARNING -     return getouterframes(sys._getframe(1), context)
+[2022-08-29T12:54:03.191-0400] {logging_mixin.py:115} WARNING -   File "/usr/lib/python3.9/inspect.py", line 1531, in getouterframes
+[2022-08-29T12:54:03.192-0400] {logging_mixin.py:115} WARNING -     frameinfo = (frame,) + getframeinfo(frame, context)
+[2022-08-29T12:54:03.192-0400] {logging_mixin.py:115} WARNING -   File "/usr/lib/python3.9/inspect.py", line 1501, in getframeinfo
+[2022-08-29T12:54:03.192-0400] {logging_mixin.py:115} WARNING -     filename = getsourcefile(frame) or getfile(frame)
+[2022-08-29T12:54:03.192-0400] {logging_mixin.py:115} WARNING -   File "/usr/lib/python3.9/inspect.py", line 709, in getsourcefile
+[2022-08-29T12:54:03.193-0400] {logging_mixin.py:115} WARNING -     if getattr(getmodule(object, filename), '__loader__', None) is not None:
+[2022-08-29T12:54:03.193-0400] {logging_mixin.py:115} WARNING -   File "/usr/lib/python3.9/inspect.py", line 746, in getmodule
+[2022-08-29T12:54:03.193-0400] {logging_mixin.py:115} WARNING -     if ismodule(module) and hasattr(module, '__file__'):
+[2022-08-29T12:54:03.193-0400] {logging_mixin.py:115} WARNING -   File "/usr/lib/python3.9/inspect.py", line 64, in ismodule
+[2022-08-29T12:54:03.194-0400] {logging_mixin.py:115} WARNING -     def ismodule(object):
+[2022-08-29T12:54:03.194-0400] {logging_mixin.py:115} WARNING -   File "/home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/dag_processing/manager.py", line 467, in _exit_gracefully
+[2022-08-29T12:54:03.194-0400] {logging_mixin.py:115} WARNING -     sys.exit(os.EX_OK)
+[2022-08-29T12:54:03.194-0400] {logging_mixin.py:115} WARNING - SystemExit: 0
+[2022-08-29T12:54:03.229-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:54:03.228-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T12:54:03.289-0400] {logging_mixin.py:115} INFO - [2022-08-29T12:54:03.288-0400] {dag.py:2977} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2022-08-29T12:54:03.360-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 1.945 seconds

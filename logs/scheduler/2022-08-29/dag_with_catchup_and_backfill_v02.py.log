@@ -1,0 +1,493 @@
+[2022-08-29T19:23:58.746-0400] {processor.py:153} INFO - Started process (PID=10022) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:23:58.748-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py for tasks to queue
+[2022-08-29T19:23:58.749-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:23:58.749-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:23:58.762-0400] {processor.py:650} INFO - DAG(s) dict_keys(['dag_with_catchup_backfill_v02']) retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:23:58.922-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:23:58.922-0400] {manager.py:508} INFO - Created Permission View: can delete on DAG:dag_with_catchup_backfill_v02
+[2022-08-29T19:23:58.964-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:23:58.963-0400] {manager.py:508} INFO - Created Permission View: can edit on DAG:dag_with_catchup_backfill_v02
+[2022-08-29T19:23:59.014-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:23:59.013-0400] {manager.py:508} INFO - Created Permission View: can read on DAG:dag_with_catchup_backfill_v02
+[2022-08-29T19:23:59.014-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:23:59.014-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T19:23:59.026-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:23:59.026-0400] {dag.py:2448} INFO - Creating ORM DAG for dag_with_catchup_backfill_v02
+[2022-08-29T19:23:59.046-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:23:59.046-0400] {dag.py:2977} INFO - Setting next_dagrun for dag_with_catchup_backfill_v02 to 2022-08-29T00:00:00+00:00, run_after=2022-08-30T00:00:00+00:00
+[2022-08-29T19:23:59.086-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py took 0.345 seconds
+[2022-08-29T19:24:29.313-0400] {processor.py:153} INFO - Started process (PID=10039) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:24:29.325-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py for tasks to queue
+[2022-08-29T19:24:29.326-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:24:29.326-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:24:29.341-0400] {processor.py:650} INFO - DAG(s) dict_keys(['dag_with_catchup_backfill_v02']) retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:24:29.391-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:24:29.391-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T19:24:29.426-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:24:29.425-0400] {dag.py:2977} INFO - Setting next_dagrun for dag_with_catchup_backfill_v02 to 2022-08-29T00:00:00+00:00, run_after=2022-08-30T00:00:00+00:00
+[2022-08-29T19:24:29.518-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py took 0.212 seconds
+[2022-08-29T19:24:59.660-0400] {processor.py:153} INFO - Started process (PID=10063) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:24:59.673-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py for tasks to queue
+[2022-08-29T19:24:59.674-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:24:59.674-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:24:59.690-0400] {processor.py:650} INFO - DAG(s) dict_keys(['dag_with_catchup_backfill_v02']) retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:24:59.740-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:24:59.740-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T19:24:59.778-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:24:59.778-0400] {dag.py:2977} INFO - Setting next_dagrun for dag_with_catchup_backfill_v02 to 2022-08-29T00:00:00+00:00, run_after=2022-08-30T00:00:00+00:00
+[2022-08-29T19:24:59.846-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py took 0.192 seconds
+[2022-08-29T19:25:30.123-0400] {processor.py:153} INFO - Started process (PID=10079) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:25:30.124-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py for tasks to queue
+[2022-08-29T19:25:30.126-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:25:30.125-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:25:30.142-0400] {processor.py:650} INFO - DAG(s) dict_keys(['dag_with_catchup_backfill_v02']) retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:25:30.194-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:25:30.193-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T19:25:30.269-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py took 0.153 seconds
+[2022-08-29T19:26:00.356-0400] {processor.py:153} INFO - Started process (PID=10121) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:26:00.369-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py for tasks to queue
+[2022-08-29T19:26:00.370-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:26:00.370-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:26:00.381-0400] {processor.py:650} INFO - DAG(s) dict_keys(['dag_with_catchup_backfill_v02']) retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:26:00.433-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:26:00.433-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T19:26:00.477-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:26:00.477-0400] {dag.py:2977} INFO - Setting next_dagrun for dag_with_catchup_backfill_v02 to 2022-08-29T00:00:00+00:00, run_after=2022-08-30T00:00:00+00:00
+[2022-08-29T19:26:00.541-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py took 0.189 seconds
+[2022-08-29T19:26:30.755-0400] {processor.py:153} INFO - Started process (PID=10174) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:26:30.768-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py for tasks to queue
+[2022-08-29T19:26:30.770-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:26:30.769-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:26:30.784-0400] {processor.py:650} INFO - DAG(s) dict_keys(['dag_with_catchup_backfill_v02']) retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:26:30.838-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:26:30.838-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T19:26:30.889-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:26:30.889-0400] {dag.py:2977} INFO - Setting next_dagrun for dag_with_catchup_backfill_v02 to 2022-08-31T00:00:00+00:00, run_after=2022-09-01T00:00:00+00:00
+[2022-08-29T19:26:30.930-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py took 0.181 seconds
+[2022-08-29T19:27:01.528-0400] {processor.py:153} INFO - Started process (PID=10248) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:27:01.543-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py for tasks to queue
+[2022-08-29T19:27:01.545-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:27:01.544-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:27:01.561-0400] {processor.py:650} INFO - DAG(s) dict_keys(['dag_with_catchup_backfill_v02']) retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:27:01.623-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:27:01.623-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T19:27:01.685-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:27:01.685-0400] {dag.py:2977} INFO - Setting next_dagrun for dag_with_catchup_backfill_v02 to 2022-08-31T00:00:00+00:00, run_after=2022-09-01T00:00:00+00:00
+[2022-08-29T19:27:01.760-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py took 0.237 seconds
+[2022-08-29T19:27:32.099-0400] {processor.py:153} INFO - Started process (PID=10280) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:27:32.114-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py for tasks to queue
+[2022-08-29T19:27:32.115-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:27:32.114-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:27:32.128-0400] {processor.py:650} INFO - DAG(s) dict_keys(['dag_with_catchup_backfill_v02']) retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:27:32.203-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:27:32.202-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T19:27:32.256-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:27:32.256-0400] {dag.py:2977} INFO - Setting next_dagrun for dag_with_catchup_backfill_v02 to 2022-08-31T00:00:00+00:00, run_after=2022-09-01T00:00:00+00:00
+[2022-08-29T19:27:32.332-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py took 0.240 seconds
+[2022-08-29T19:28:02.473-0400] {processor.py:153} INFO - Started process (PID=10299) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:28:02.489-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py for tasks to queue
+[2022-08-29T19:28:02.490-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:28:02.490-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:28:02.504-0400] {processor.py:650} INFO - DAG(s) dict_keys(['dag_with_catchup_backfill_v02']) retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:28:02.563-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:28:02.563-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T19:28:02.612-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:28:02.612-0400] {dag.py:2977} INFO - Setting next_dagrun for dag_with_catchup_backfill_v02 to 2022-08-31T00:00:00+00:00, run_after=2022-09-01T00:00:00+00:00
+[2022-08-29T19:28:02.661-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py took 0.195 seconds
+[2022-08-29T19:28:33.276-0400] {processor.py:153} INFO - Started process (PID=10322) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:28:33.280-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py for tasks to queue
+[2022-08-29T19:28:33.281-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:28:33.281-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:28:33.293-0400] {processor.py:650} INFO - DAG(s) dict_keys(['dag_with_catchup_backfill_v02']) retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:28:33.345-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:28:33.344-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T19:28:33.389-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:28:33.388-0400] {dag.py:2977} INFO - Setting next_dagrun for dag_with_catchup_backfill_v02 to 2022-08-31T00:00:00+00:00, run_after=2022-09-01T00:00:00+00:00
+[2022-08-29T19:28:33.441-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py took 0.170 seconds
+[2022-08-29T19:29:03.760-0400] {processor.py:153} INFO - Started process (PID=10336) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:29:03.781-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py for tasks to queue
+[2022-08-29T19:29:03.783-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:29:03.782-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:29:03.793-0400] {processor.py:650} INFO - DAG(s) dict_keys(['dag_with_catchup_backfill_v02']) retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:29:03.848-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:29:03.846-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T19:29:03.903-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:29:03.902-0400] {dag.py:2977} INFO - Setting next_dagrun for dag_with_catchup_backfill_v02 to 2022-08-31T00:00:00+00:00, run_after=2022-09-01T00:00:00+00:00
+[2022-08-29T19:29:03.954-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py took 0.199 seconds
+[2022-08-29T19:29:34.623-0400] {processor.py:153} INFO - Started process (PID=10350) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:29:34.646-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py for tasks to queue
+[2022-08-29T19:29:34.647-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:29:34.647-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:29:34.659-0400] {processor.py:650} INFO - DAG(s) dict_keys(['dag_with_catchup_backfill_v02']) retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:29:34.721-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:29:34.721-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T19:29:34.769-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:29:34.768-0400] {dag.py:2977} INFO - Setting next_dagrun for dag_with_catchup_backfill_v02 to 2022-08-31T00:00:00+00:00, run_after=2022-09-01T00:00:00+00:00
+[2022-08-29T19:29:34.809-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py took 0.192 seconds
+[2022-08-29T19:30:05.280-0400] {processor.py:153} INFO - Started process (PID=10365) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:30:05.286-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py for tasks to queue
+[2022-08-29T19:30:05.292-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:30:05.291-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:30:05.314-0400] {processor.py:650} INFO - DAG(s) dict_keys(['dag_with_catchup_backfill_v02']) retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:30:05.399-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:30:05.399-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T19:30:05.479-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:30:05.479-0400] {dag.py:2977} INFO - Setting next_dagrun for dag_with_catchup_backfill_v02 to 2022-08-31T00:00:00+00:00, run_after=2022-09-01T00:00:00+00:00
+[2022-08-29T19:30:05.519-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py took 0.246 seconds
+[2022-08-29T19:30:35.849-0400] {processor.py:153} INFO - Started process (PID=10379) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:30:35.873-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py for tasks to queue
+[2022-08-29T19:30:35.875-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:30:35.874-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:30:35.898-0400] {processor.py:650} INFO - DAG(s) dict_keys(['dag_with_catchup_backfill_v02']) retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:30:35.978-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:30:35.977-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T19:30:36.046-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:30:36.045-0400] {dag.py:2977} INFO - Setting next_dagrun for dag_with_catchup_backfill_v02 to 2022-08-31T00:00:00+00:00, run_after=2022-09-01T00:00:00+00:00
+[2022-08-29T19:30:36.123-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py took 0.280 seconds
+[2022-08-29T19:31:06.418-0400] {processor.py:153} INFO - Started process (PID=10393) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:31:06.443-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py for tasks to queue
+[2022-08-29T19:31:06.444-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:31:06.444-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:31:06.465-0400] {processor.py:650} INFO - DAG(s) dict_keys(['dag_with_catchup_backfill_v02']) retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:31:06.522-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:31:06.522-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T19:31:06.573-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:31:06.573-0400] {dag.py:2977} INFO - Setting next_dagrun for dag_with_catchup_backfill_v02 to 2022-08-31T00:00:00+00:00, run_after=2022-09-01T00:00:00+00:00
+[2022-08-29T19:31:06.617-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py took 0.206 seconds
+[2022-08-29T19:31:36.794-0400] {processor.py:153} INFO - Started process (PID=10422) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:31:36.796-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py for tasks to queue
+[2022-08-29T19:31:36.797-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:31:36.797-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:31:36.809-0400] {processor.py:650} INFO - DAG(s) dict_keys(['dag_with_catchup_backfill_v02']) retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:31:36.859-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:31:36.858-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T19:31:36.893-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:31:36.893-0400] {dag.py:2977} INFO - Setting next_dagrun for dag_with_catchup_backfill_v02 to 2022-08-31T00:00:00+00:00, run_after=2022-09-01T00:00:00+00:00
+[2022-08-29T19:31:36.938-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py took 0.149 seconds
+[2022-08-29T19:32:07.281-0400] {processor.py:153} INFO - Started process (PID=10442) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:32:07.285-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py for tasks to queue
+[2022-08-29T19:32:07.286-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:32:07.286-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:32:07.297-0400] {processor.py:650} INFO - DAG(s) dict_keys(['dag_with_catchup_backfill_v02']) retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:32:07.342-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:32:07.341-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T19:32:07.385-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:32:07.385-0400] {dag.py:2977} INFO - Setting next_dagrun for dag_with_catchup_backfill_v02 to 2022-08-31T00:00:00+00:00, run_after=2022-09-01T00:00:00+00:00
+[2022-08-29T19:32:07.427-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py took 0.151 seconds
+[2022-08-29T19:32:37.659-0400] {processor.py:153} INFO - Started process (PID=10461) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:32:37.665-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py for tasks to queue
+[2022-08-29T19:32:37.666-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:32:37.666-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:32:37.682-0400] {processor.py:650} INFO - DAG(s) dict_keys(['dag_with_catchup_backfill_v02']) retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:32:37.729-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:32:37.728-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T19:32:37.766-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:32:37.766-0400] {dag.py:2977} INFO - Setting next_dagrun for dag_with_catchup_backfill_v02 to 2022-08-31T00:00:00+00:00, run_after=2022-09-01T00:00:00+00:00
+[2022-08-29T19:32:37.816-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py took 0.163 seconds
+[2022-08-29T19:33:08.009-0400] {processor.py:153} INFO - Started process (PID=10483) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:33:08.014-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py for tasks to queue
+[2022-08-29T19:33:08.015-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:33:08.015-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:33:08.027-0400] {processor.py:650} INFO - DAG(s) dict_keys(['dag_with_catchup_backfill_v02']) retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:33:08.076-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:33:08.075-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T19:33:08.109-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:33:08.109-0400] {dag.py:2977} INFO - Setting next_dagrun for dag_with_catchup_backfill_v02 to 2022-08-31T00:00:00+00:00, run_after=2022-09-01T00:00:00+00:00
+[2022-08-29T19:33:08.146-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py took 0.144 seconds
+[2022-08-29T19:33:38.479-0400] {processor.py:153} INFO - Started process (PID=10498) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:33:38.485-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py for tasks to queue
+[2022-08-29T19:33:38.487-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:33:38.486-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:33:38.501-0400] {processor.py:650} INFO - DAG(s) dict_keys(['dag_with_catchup_backfill_v02']) retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:33:38.553-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:33:38.553-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T19:33:38.598-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:33:38.598-0400] {dag.py:2977} INFO - Setting next_dagrun for dag_with_catchup_backfill_v02 to 2022-08-31T00:00:00+00:00, run_after=2022-09-01T00:00:00+00:00
+[2022-08-29T19:33:38.642-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py took 0.169 seconds
+[2022-08-29T19:34:08.828-0400] {processor.py:153} INFO - Started process (PID=10512) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:34:08.833-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py for tasks to queue
+[2022-08-29T19:34:08.834-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:34:08.834-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:34:08.846-0400] {processor.py:650} INFO - DAG(s) dict_keys(['dag_with_catchup_backfill_v02']) retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:34:08.896-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:34:08.896-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T19:34:08.934-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:34:08.933-0400] {dag.py:2977} INFO - Setting next_dagrun for dag_with_catchup_backfill_v02 to 2022-08-31T00:00:00+00:00, run_after=2022-09-01T00:00:00+00:00
+[2022-08-29T19:34:08.973-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py took 0.152 seconds
+[2022-08-29T19:34:39.289-0400] {processor.py:153} INFO - Started process (PID=10528) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:34:39.295-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py for tasks to queue
+[2022-08-29T19:34:39.297-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:34:39.297-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:34:39.308-0400] {processor.py:650} INFO - DAG(s) dict_keys(['dag_with_catchup_backfill_v02']) retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:34:39.358-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:34:39.358-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T19:34:39.393-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:34:39.392-0400] {dag.py:2977} INFO - Setting next_dagrun for dag_with_catchup_backfill_v02 to 2022-08-31T00:00:00+00:00, run_after=2022-09-01T00:00:00+00:00
+[2022-08-29T19:34:39.437-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py took 0.152 seconds
+[2022-08-29T19:35:09.658-0400] {processor.py:153} INFO - Started process (PID=10547) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:35:09.660-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py for tasks to queue
+[2022-08-29T19:35:09.661-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:35:09.661-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:35:09.674-0400] {processor.py:650} INFO - DAG(s) dict_keys(['dag_with_catchup_backfill_v02']) retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:35:09.720-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:35:09.720-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T19:35:09.753-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:35:09.753-0400] {dag.py:2977} INFO - Setting next_dagrun for dag_with_catchup_backfill_v02 to 2022-08-31T00:00:00+00:00, run_after=2022-09-01T00:00:00+00:00
+[2022-08-29T19:35:09.792-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py took 0.139 seconds
+[2022-08-29T19:35:40.023-0400] {processor.py:153} INFO - Started process (PID=10572) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:35:40.029-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py for tasks to queue
+[2022-08-29T19:35:40.031-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:35:40.031-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:35:40.048-0400] {processor.py:650} INFO - DAG(s) dict_keys(['dag_with_catchup_backfill_v02']) retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:35:40.107-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:35:40.107-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T19:35:40.147-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:35:40.146-0400] {dag.py:2977} INFO - Setting next_dagrun for dag_with_catchup_backfill_v02 to 2022-08-31T00:00:00+00:00, run_after=2022-09-01T00:00:00+00:00
+[2022-08-29T19:35:40.196-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py took 0.180 seconds
+[2022-08-29T19:36:10.675-0400] {processor.py:153} INFO - Started process (PID=10591) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:36:10.683-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py for tasks to queue
+[2022-08-29T19:36:10.684-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:36:10.684-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:36:10.694-0400] {processor.py:650} INFO - DAG(s) dict_keys(['dag_with_catchup_backfill_v02']) retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:36:10.742-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:36:10.742-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T19:36:10.779-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:36:10.778-0400] {dag.py:2977} INFO - Setting next_dagrun for dag_with_catchup_backfill_v02 to 2022-08-31T00:00:00+00:00, run_after=2022-09-01T00:00:00+00:00
+[2022-08-29T19:36:10.843-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py took 0.175 seconds
+[2022-08-29T19:36:41.038-0400] {processor.py:153} INFO - Started process (PID=10607) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:36:41.046-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py for tasks to queue
+[2022-08-29T19:36:41.047-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:36:41.046-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:36:41.059-0400] {processor.py:650} INFO - DAG(s) dict_keys(['dag_with_catchup_backfill_v02']) retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:36:41.110-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:36:41.110-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T19:36:41.158-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:36:41.158-0400] {dag.py:2977} INFO - Setting next_dagrun for dag_with_catchup_backfill_v02 to 2022-08-31T00:00:00+00:00, run_after=2022-09-01T00:00:00+00:00
+[2022-08-29T19:36:41.224-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py took 0.192 seconds
+[2022-08-29T19:37:11.574-0400] {processor.py:153} INFO - Started process (PID=10624) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:37:11.581-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py for tasks to queue
+[2022-08-29T19:37:11.582-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:37:11.582-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:37:11.595-0400] {processor.py:650} INFO - DAG(s) dict_keys(['dag_with_catchup_backfill_v02']) retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:37:11.647-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:37:11.647-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T19:37:11.698-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:37:11.698-0400] {dag.py:2977} INFO - Setting next_dagrun for dag_with_catchup_backfill_v02 to 2022-08-31T00:00:00+00:00, run_after=2022-09-01T00:00:00+00:00
+[2022-08-29T19:37:11.763-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py took 0.194 seconds
+[2022-08-29T19:37:41.925-0400] {processor.py:153} INFO - Started process (PID=10646) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:37:41.929-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py for tasks to queue
+[2022-08-29T19:37:41.930-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:37:41.930-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:37:41.943-0400] {processor.py:650} INFO - DAG(s) dict_keys(['dag_with_catchup_backfill_v02']) retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:37:41.993-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:37:41.992-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T19:37:42.028-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:37:42.028-0400] {dag.py:2977} INFO - Setting next_dagrun for dag_with_catchup_backfill_v02 to 2022-08-31T00:00:00+00:00, run_after=2022-09-01T00:00:00+00:00
+[2022-08-29T19:37:42.093-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py took 0.173 seconds
+[2022-08-29T19:38:12.270-0400] {processor.py:153} INFO - Started process (PID=10667) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:38:12.280-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py for tasks to queue
+[2022-08-29T19:38:12.281-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:38:12.281-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:38:12.296-0400] {processor.py:650} INFO - DAG(s) dict_keys(['dag_with_catchup_backfill_v02']) retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:38:12.357-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:38:12.356-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T19:38:12.411-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:38:12.411-0400] {dag.py:2977} INFO - Setting next_dagrun for dag_with_catchup_backfill_v02 to 2022-08-31T00:00:00+00:00, run_after=2022-09-01T00:00:00+00:00
+[2022-08-29T19:38:12.472-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py took 0.207 seconds
+[2022-08-29T19:38:42.746-0400] {processor.py:153} INFO - Started process (PID=10681) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:38:42.755-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py for tasks to queue
+[2022-08-29T19:38:42.756-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:38:42.756-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:38:42.771-0400] {processor.py:650} INFO - DAG(s) dict_keys(['dag_with_catchup_backfill_v02']) retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:38:42.826-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:38:42.826-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T19:38:42.877-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:38:42.877-0400] {dag.py:2977} INFO - Setting next_dagrun for dag_with_catchup_backfill_v02 to 2022-08-31T00:00:00+00:00, run_after=2022-09-01T00:00:00+00:00
+[2022-08-29T19:38:42.927-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py took 0.189 seconds
+[2022-08-29T19:39:13.148-0400] {processor.py:153} INFO - Started process (PID=10708) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:39:13.158-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py for tasks to queue
+[2022-08-29T19:39:13.159-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:39:13.159-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:39:13.185-0400] {processor.py:650} INFO - DAG(s) dict_keys(['dag_with_catchup_backfill_v02']) retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:39:13.263-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:39:13.262-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T19:39:13.319-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:39:13.319-0400] {dag.py:2977} INFO - Setting next_dagrun for dag_with_catchup_backfill_v02 to 2022-08-31T00:00:00+00:00, run_after=2022-09-01T00:00:00+00:00
+[2022-08-29T19:39:13.389-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py took 0.248 seconds
+[2022-08-29T19:39:43.963-0400] {processor.py:153} INFO - Started process (PID=10730) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:39:43.975-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py for tasks to queue
+[2022-08-29T19:39:43.976-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:39:43.976-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:39:43.988-0400] {processor.py:650} INFO - DAG(s) dict_keys(['dag_with_catchup_backfill_v02']) retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:39:44.038-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:39:44.038-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T19:39:44.085-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:39:44.085-0400] {dag.py:2977} INFO - Setting next_dagrun for dag_with_catchup_backfill_v02 to 2022-08-31T00:00:00+00:00, run_after=2022-09-01T00:00:00+00:00
+[2022-08-29T19:39:44.127-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py took 0.170 seconds
+[2022-08-29T19:40:14.266-0400] {processor.py:153} INFO - Started process (PID=10747) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:40:14.278-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py for tasks to queue
+[2022-08-29T19:40:14.280-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:40:14.280-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:40:14.292-0400] {processor.py:650} INFO - DAG(s) dict_keys(['dag_with_catchup_backfill_v02']) retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:40:14.339-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:40:14.339-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T19:40:14.374-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:40:14.374-0400] {dag.py:2977} INFO - Setting next_dagrun for dag_with_catchup_backfill_v02 to 2022-08-31T00:00:00+00:00, run_after=2022-09-01T00:00:00+00:00
+[2022-08-29T19:40:14.440-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py took 0.180 seconds
+[2022-08-29T19:40:45.064-0400] {processor.py:153} INFO - Started process (PID=10767) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:40:45.072-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py for tasks to queue
+[2022-08-29T19:40:45.073-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:40:45.073-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:40:45.093-0400] {processor.py:650} INFO - DAG(s) dict_keys(['dag_with_catchup_backfill_v02']) retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:40:45.151-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:40:45.151-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T19:40:45.203-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:40:45.203-0400] {dag.py:2977} INFO - Setting next_dagrun for dag_with_catchup_backfill_v02 to 2022-08-31T00:00:00+00:00, run_after=2022-09-01T00:00:00+00:00
+[2022-08-29T19:40:45.270-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py took 0.212 seconds
+[2022-08-29T19:41:16.013-0400] {processor.py:153} INFO - Started process (PID=10791) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:41:16.025-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py for tasks to queue
+[2022-08-29T19:41:16.028-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:41:16.027-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:41:16.047-0400] {processor.py:650} INFO - DAG(s) dict_keys(['dag_with_catchup_backfill_v02']) retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:41:16.124-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:41:16.124-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T19:41:16.188-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:41:16.187-0400] {dag.py:2977} INFO - Setting next_dagrun for dag_with_catchup_backfill_v02 to 2022-08-31T00:00:00+00:00, run_after=2022-09-01T00:00:00+00:00
+[2022-08-29T19:41:16.239-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py took 0.233 seconds
+[2022-08-29T19:41:46.320-0400] {processor.py:153} INFO - Started process (PID=10808) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:41:46.335-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py for tasks to queue
+[2022-08-29T19:41:46.336-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:41:46.336-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:41:46.357-0400] {processor.py:650} INFO - DAG(s) dict_keys(['dag_with_catchup_backfill_v02']) retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:41:46.425-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:41:46.423-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T19:41:46.483-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:41:46.483-0400] {dag.py:2977} INFO - Setting next_dagrun for dag_with_catchup_backfill_v02 to 2022-08-31T00:00:00+00:00, run_after=2022-09-01T00:00:00+00:00
+[2022-08-29T19:41:46.526-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py took 0.212 seconds
+[2022-08-29T19:42:17.247-0400] {processor.py:153} INFO - Started process (PID=10835) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:42:17.261-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py for tasks to queue
+[2022-08-29T19:42:17.262-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:42:17.262-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:42:17.277-0400] {processor.py:650} INFO - DAG(s) dict_keys(['dag_with_catchup_backfill_v02']) retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:42:17.323-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:42:17.322-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T19:42:17.362-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:42:17.361-0400] {dag.py:2977} INFO - Setting next_dagrun for dag_with_catchup_backfill_v02 to 2022-08-31T00:00:00+00:00, run_after=2022-09-01T00:00:00+00:00
+[2022-08-29T19:42:17.454-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py took 0.212 seconds
+[2022-08-29T19:42:48.095-0400] {processor.py:153} INFO - Started process (PID=10865) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:42:48.100-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py for tasks to queue
+[2022-08-29T19:42:48.102-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:42:48.101-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:42:48.119-0400] {processor.py:650} INFO - DAG(s) dict_keys(['dag_with_catchup_backfill_v02']) retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:42:48.177-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:42:48.177-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T19:42:48.225-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:42:48.224-0400] {dag.py:2977} INFO - Setting next_dagrun for dag_with_catchup_backfill_v02 to 2022-08-31T00:00:00+00:00, run_after=2022-09-01T00:00:00+00:00
+[2022-08-29T19:42:48.306-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py took 0.218 seconds
+[2022-08-29T19:43:19.030-0400] {processor.py:153} INFO - Started process (PID=10883) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:43:19.045-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py for tasks to queue
+[2022-08-29T19:43:19.046-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:43:19.045-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:43:19.062-0400] {processor.py:650} INFO - DAG(s) dict_keys(['dag_with_catchup_backfill_v02']) retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:43:19.114-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:43:19.114-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T19:43:19.152-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:43:19.152-0400] {dag.py:2977} INFO - Setting next_dagrun for dag_with_catchup_backfill_v02 to 2022-08-31T00:00:00+00:00, run_after=2022-09-01T00:00:00+00:00
+[2022-08-29T19:43:19.187-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py took 0.161 seconds
+[2022-08-29T19:43:49.965-0400] {processor.py:153} INFO - Started process (PID=10908) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:43:49.968-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py for tasks to queue
+[2022-08-29T19:43:49.970-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:43:49.970-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:43:49.984-0400] {processor.py:650} INFO - DAG(s) dict_keys(['dag_with_catchup_backfill_v02']) retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:43:50.037-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:43:50.036-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T19:43:50.082-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:43:50.082-0400] {dag.py:2977} INFO - Setting next_dagrun for dag_with_catchup_backfill_v02 to 2022-08-31T00:00:00+00:00, run_after=2022-09-01T00:00:00+00:00
+[2022-08-29T19:43:50.124-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py took 0.163 seconds
+[2022-08-29T19:44:20.373-0400] {processor.py:153} INFO - Started process (PID=10926) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:44:20.377-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py for tasks to queue
+[2022-08-29T19:44:20.379-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:44:20.378-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:44:20.394-0400] {processor.py:650} INFO - DAG(s) dict_keys(['dag_with_catchup_backfill_v02']) retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:44:20.450-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:44:20.450-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T19:44:20.502-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:44:20.501-0400] {dag.py:2977} INFO - Setting next_dagrun for dag_with_catchup_backfill_v02 to 2022-08-31T00:00:00+00:00, run_after=2022-09-01T00:00:00+00:00
+[2022-08-29T19:44:20.571-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py took 0.203 seconds
+[2022-08-29T19:44:51.174-0400] {processor.py:153} INFO - Started process (PID=10965) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:44:51.178-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py for tasks to queue
+[2022-08-29T19:44:51.179-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:44:51.179-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:44:51.191-0400] {processor.py:650} INFO - DAG(s) dict_keys(['dag_with_catchup_backfill_v02']) retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:44:51.239-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:44:51.239-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T19:44:51.283-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:44:51.283-0400] {dag.py:2977} INFO - Setting next_dagrun for dag_with_catchup_backfill_v02 to 2022-08-31T00:00:00+00:00, run_after=2022-09-01T00:00:00+00:00
+[2022-08-29T19:44:51.343-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py took 0.177 seconds
+[2022-08-29T19:45:21.918-0400] {processor.py:153} INFO - Started process (PID=10996) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:45:21.922-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py for tasks to queue
+[2022-08-29T19:45:21.923-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:45:21.923-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:45:21.935-0400] {processor.py:650} INFO - DAG(s) dict_keys(['dag_with_catchup_backfill_v02']) retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:45:21.988-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:45:21.988-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T19:45:22.030-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:45:22.030-0400] {dag.py:2977} INFO - Setting next_dagrun for dag_with_catchup_backfill_v02 to 2022-08-31T00:00:00+00:00, run_after=2022-09-01T00:00:00+00:00
+[2022-08-29T19:45:22.113-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py took 0.202 seconds
+[2022-08-29T19:45:52.864-0400] {processor.py:153} INFO - Started process (PID=11022) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:45:52.928-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py for tasks to queue
+[2022-08-29T19:45:52.930-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:45:52.929-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:45:52.968-0400] {processor.py:650} INFO - DAG(s) dict_keys(['dag_with_catchup_backfill_v02']) retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:45:53.071-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:45:53.070-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T19:45:53.125-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:45:53.125-0400] {dag.py:2977} INFO - Setting next_dagrun for dag_with_catchup_backfill_v02 to 2022-08-31T00:00:00+00:00, run_after=2022-09-01T00:00:00+00:00
+[2022-08-29T19:45:53.177-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py took 0.319 seconds
+[2022-08-29T19:46:23.293-0400] {processor.py:153} INFO - Started process (PID=11102) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:46:23.299-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py for tasks to queue
+[2022-08-29T19:46:23.300-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:46:23.300-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:46:23.318-0400] {processor.py:650} INFO - DAG(s) dict_keys(['dag_with_catchup_backfill_v02']) retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:46:23.399-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:46:23.399-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T19:46:23.477-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:46:23.477-0400] {dag.py:2977} INFO - Setting next_dagrun for dag_with_catchup_backfill_v02 to 2022-08-31T00:00:00+00:00, run_after=2022-09-01T00:00:00+00:00
+[2022-08-29T19:46:23.559-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py took 0.273 seconds
+[2022-08-29T19:46:54.354-0400] {processor.py:153} INFO - Started process (PID=11204) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:46:54.364-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py for tasks to queue
+[2022-08-29T19:46:54.366-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:46:54.365-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:46:54.391-0400] {processor.py:650} INFO - DAG(s) dict_keys(['dag_with_catchup_backfill_v02']) retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:46:54.476-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:46:54.475-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T19:46:54.537-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:46:54.536-0400] {dag.py:2977} INFO - Setting next_dagrun for dag_with_catchup_backfill_v02 to 2022-08-31T00:00:00+00:00, run_after=2022-09-01T00:00:00+00:00
+[2022-08-29T19:46:54.649-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py took 0.301 seconds
+[2022-08-29T19:47:25.046-0400] {processor.py:153} INFO - Started process (PID=11290) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:47:25.052-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py for tasks to queue
+[2022-08-29T19:47:25.054-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:47:25.053-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:47:25.078-0400] {processor.py:650} INFO - DAG(s) dict_keys(['dag_with_catchup_backfill_v02']) retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:47:25.161-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:47:25.160-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T19:47:25.236-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:47:25.235-0400] {dag.py:2977} INFO - Setting next_dagrun for dag_with_catchup_backfill_v02 to 2022-08-31T00:00:00+00:00, run_after=2022-09-01T00:00:00+00:00
+[2022-08-29T19:47:25.305-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py took 0.266 seconds
+[2022-08-29T19:48:14.306-0400] {processor.py:153} INFO - Started process (PID=11407) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:48:14.310-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py for tasks to queue
+[2022-08-29T19:48:14.312-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:48:14.312-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:48:14.345-0400] {processor.py:650} INFO - DAG(s) dict_keys(['dag_with_catchup_backfill_v02']) retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:48:14.452-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:48:14.452-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T19:48:14.542-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:48:14.542-0400] {dag.py:2977} INFO - Setting next_dagrun for dag_with_catchup_backfill_v02 to 2022-08-31T00:00:00+00:00, run_after=2022-09-01T00:00:00+00:00
+[2022-08-29T19:48:14.598-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py took 0.305 seconds
+[2022-08-29T19:48:45.614-0400] {processor.py:153} INFO - Started process (PID=11426) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:48:45.616-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py for tasks to queue
+[2022-08-29T19:48:45.617-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:48:45.617-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:48:45.633-0400] {processor.py:650} INFO - DAG(s) dict_keys(['dag_with_catchup_backfill_v02']) retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:48:45.683-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:48:45.682-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T19:48:45.723-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:48:45.723-0400] {dag.py:2977} INFO - Setting next_dagrun for dag_with_catchup_backfill_v02 to 2022-08-31T00:00:00+00:00, run_after=2022-09-01T00:00:00+00:00
+[2022-08-29T19:48:45.794-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py took 0.185 seconds
+[2022-08-29T19:49:16.670-0400] {processor.py:153} INFO - Started process (PID=11448) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:49:16.673-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py for tasks to queue
+[2022-08-29T19:49:16.675-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:49:16.674-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:49:16.702-0400] {processor.py:650} INFO - DAG(s) dict_keys(['dag_with_catchup_backfill_v02']) retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:49:16.789-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:49:16.788-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T19:49:16.872-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:49:16.872-0400] {dag.py:2977} INFO - Setting next_dagrun for dag_with_catchup_backfill_v02 to 2022-08-31T00:00:00+00:00, run_after=2022-09-01T00:00:00+00:00
+[2022-08-29T19:49:16.957-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py took 0.293 seconds
+[2022-08-29T19:49:47.230-0400] {processor.py:153} INFO - Started process (PID=11467) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:49:47.233-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py for tasks to queue
+[2022-08-29T19:49:47.234-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:49:47.234-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:49:47.247-0400] {processor.py:650} INFO - DAG(s) dict_keys(['dag_with_catchup_backfill_v02']) retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:49:47.300-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:49:47.300-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T19:49:47.341-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:49:47.340-0400] {dag.py:2977} INFO - Setting next_dagrun for dag_with_catchup_backfill_v02 to 2022-08-31T00:00:00+00:00, run_after=2022-09-01T00:00:00+00:00
+[2022-08-29T19:49:47.379-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py took 0.154 seconds
+[2022-08-29T19:50:18.039-0400] {processor.py:153} INFO - Started process (PID=11484) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:50:18.044-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py for tasks to queue
+[2022-08-29T19:50:18.045-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:50:18.044-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:50:18.057-0400] {processor.py:650} INFO - DAG(s) dict_keys(['dag_with_catchup_backfill_v02']) retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:50:18.104-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:50:18.104-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T19:50:18.142-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:50:18.142-0400] {dag.py:2977} INFO - Setting next_dagrun for dag_with_catchup_backfill_v02 to 2022-08-31T00:00:00+00:00, run_after=2022-09-01T00:00:00+00:00
+[2022-08-29T19:50:18.175-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py took 0.143 seconds
+[2022-08-29T19:50:49.072-0400] {processor.py:153} INFO - Started process (PID=11502) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:50:49.077-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py for tasks to queue
+[2022-08-29T19:50:49.079-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:50:49.078-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:50:49.099-0400] {processor.py:650} INFO - DAG(s) dict_keys(['dag_with_catchup_backfill_v02']) retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:50:49.173-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:50:49.173-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T19:50:49.230-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:50:49.230-0400] {dag.py:2977} INFO - Setting next_dagrun for dag_with_catchup_backfill_v02 to 2022-08-31T00:00:00+00:00, run_after=2022-09-01T00:00:00+00:00
+[2022-08-29T19:50:49.273-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py took 0.206 seconds
+[2022-08-29T19:51:20.265-0400] {processor.py:153} INFO - Started process (PID=11520) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:51:20.283-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py for tasks to queue
+[2022-08-29T19:51:20.285-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:51:20.284-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:51:20.314-0400] {processor.py:650} INFO - DAG(s) dict_keys(['dag_with_catchup_backfill_v02']) retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:51:20.395-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:51:20.394-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T19:51:20.466-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:51:20.466-0400] {dag.py:2977} INFO - Setting next_dagrun for dag_with_catchup_backfill_v02 to 2022-08-31T00:00:00+00:00, run_after=2022-09-01T00:00:00+00:00
+[2022-08-29T19:51:20.529-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py took 0.271 seconds
+[2022-08-29T19:51:50.660-0400] {processor.py:153} INFO - Started process (PID=11540) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:51:50.664-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py for tasks to queue
+[2022-08-29T19:51:50.665-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:51:50.665-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:51:50.684-0400] {processor.py:650} INFO - DAG(s) dict_keys(['dag_with_catchup_backfill_v02']) retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:51:50.757-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:51:50.756-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T19:51:50.824-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:51:50.824-0400] {dag.py:2977} INFO - Setting next_dagrun for dag_with_catchup_backfill_v02 to 2022-08-31T00:00:00+00:00, run_after=2022-09-01T00:00:00+00:00
+[2022-08-29T19:51:50.898-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py took 0.245 seconds
+[2022-08-29T19:52:20.944-0400] {processor.py:153} INFO - Started process (PID=11558) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:52:20.949-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py for tasks to queue
+[2022-08-29T19:52:20.951-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:52:20.950-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:52:20.968-0400] {processor.py:650} INFO - DAG(s) dict_keys(['dag_with_catchup_backfill_v02']) retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:52:21.030-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:52:21.030-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T19:52:21.085-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:52:21.085-0400] {dag.py:2977} INFO - Setting next_dagrun for dag_with_catchup_backfill_v02 to 2022-08-31T00:00:00+00:00, run_after=2022-09-01T00:00:00+00:00
+[2022-08-29T19:52:21.128-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py took 0.189 seconds
+[2022-08-29T19:52:52.115-0400] {processor.py:153} INFO - Started process (PID=11586) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:52:52.116-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py for tasks to queue
+[2022-08-29T19:52:52.118-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:52:52.117-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:52:52.135-0400] {processor.py:650} INFO - DAG(s) dict_keys(['dag_with_catchup_backfill_v02']) retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:52:52.197-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:52:52.196-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T19:52:52.252-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:52:52.252-0400] {dag.py:2977} INFO - Setting next_dagrun for dag_with_catchup_backfill_v02 to 2022-08-31T00:00:00+00:00, run_after=2022-09-01T00:00:00+00:00
+[2022-08-29T19:52:52.299-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py took 0.190 seconds
+[2022-08-29T19:53:23.193-0400] {processor.py:153} INFO - Started process (PID=11605) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:53:23.198-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py for tasks to queue
+[2022-08-29T19:53:23.199-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:53:23.198-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:53:23.210-0400] {processor.py:650} INFO - DAG(s) dict_keys(['dag_with_catchup_backfill_v02']) retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:53:23.263-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:53:23.263-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T19:53:23.303-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:53:23.303-0400] {dag.py:2977} INFO - Setting next_dagrun for dag_with_catchup_backfill_v02 to 2022-08-31T00:00:00+00:00, run_after=2022-09-01T00:00:00+00:00
+[2022-08-29T19:53:23.338-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py took 0.150 seconds
+[2022-08-29T19:53:54.200-0400] {processor.py:153} INFO - Started process (PID=11632) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:53:54.203-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py for tasks to queue
+[2022-08-29T19:53:54.204-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:53:54.204-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:53:54.217-0400] {processor.py:650} INFO - DAG(s) dict_keys(['dag_with_catchup_backfill_v02']) retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:53:54.272-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:53:54.271-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T19:53:54.314-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:53:54.314-0400] {dag.py:2977} INFO - Setting next_dagrun for dag_with_catchup_backfill_v02 to 2022-08-31T00:00:00+00:00, run_after=2022-09-01T00:00:00+00:00
+[2022-08-29T19:53:54.368-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py took 0.173 seconds
+[2022-08-29T19:54:25.284-0400] {processor.py:153} INFO - Started process (PID=11655) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:54:25.290-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py for tasks to queue
+[2022-08-29T19:54:25.292-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:54:25.291-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:54:25.303-0400] {processor.py:650} INFO - DAG(s) dict_keys(['dag_with_catchup_backfill_v02']) retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:54:25.352-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:54:25.352-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T19:54:25.403-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:54:25.402-0400] {dag.py:2977} INFO - Setting next_dagrun for dag_with_catchup_backfill_v02 to 2022-08-31T00:00:00+00:00, run_after=2022-09-01T00:00:00+00:00
+[2022-08-29T19:54:25.446-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py took 0.168 seconds
+[2022-08-29T19:54:56.188-0400] {processor.py:153} INFO - Started process (PID=11683) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:54:56.208-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py for tasks to queue
+[2022-08-29T19:54:56.209-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:54:56.209-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:54:56.225-0400] {processor.py:650} INFO - DAG(s) dict_keys(['dag_with_catchup_backfill_v02']) retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:54:56.272-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:54:56.272-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T19:54:56.308-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:54:56.308-0400] {dag.py:2977} INFO - Setting next_dagrun for dag_with_catchup_backfill_v02 to 2022-08-31T00:00:00+00:00, run_after=2022-09-01T00:00:00+00:00
+[2022-08-29T19:54:56.370-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py took 0.187 seconds
+[2022-08-29T19:55:27.003-0400] {processor.py:153} INFO - Started process (PID=11708) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:55:27.008-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py for tasks to queue
+[2022-08-29T19:55:27.009-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:55:27.008-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:55:27.019-0400] {processor.py:650} INFO - DAG(s) dict_keys(['dag_with_catchup_backfill_v02']) retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:55:27.067-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:55:27.066-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T19:55:27.106-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:55:27.106-0400] {dag.py:2977} INFO - Setting next_dagrun for dag_with_catchup_backfill_v02 to 2022-08-31T00:00:00+00:00, run_after=2022-09-01T00:00:00+00:00
+[2022-08-29T19:55:27.141-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py took 0.142 seconds
+[2022-08-29T19:55:58.113-0400] {processor.py:153} INFO - Started process (PID=11726) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:55:58.133-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py for tasks to queue
+[2022-08-29T19:55:58.134-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:55:58.133-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:55:58.145-0400] {processor.py:650} INFO - DAG(s) dict_keys(['dag_with_catchup_backfill_v02']) retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:55:58.197-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:55:58.197-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T19:55:58.239-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:55:58.238-0400] {dag.py:2977} INFO - Setting next_dagrun for dag_with_catchup_backfill_v02 to 2022-08-31T00:00:00+00:00, run_after=2022-09-01T00:00:00+00:00
+[2022-08-29T19:55:58.337-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py took 0.229 seconds
+[2022-08-29T19:56:29.000-0400] {processor.py:153} INFO - Started process (PID=11744) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:56:29.005-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py for tasks to queue
+[2022-08-29T19:56:29.006-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:56:29.006-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:56:29.017-0400] {processor.py:650} INFO - DAG(s) dict_keys(['dag_with_catchup_backfill_v02']) retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:56:29.065-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:56:29.065-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T19:56:29.107-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:56:29.107-0400] {dag.py:2977} INFO - Setting next_dagrun for dag_with_catchup_backfill_v02 to 2022-08-31T00:00:00+00:00, run_after=2022-09-01T00:00:00+00:00
+[2022-08-29T19:56:29.141-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py took 0.145 seconds
+[2022-08-29T19:56:59.892-0400] {processor.py:153} INFO - Started process (PID=11771) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:56:59.894-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py for tasks to queue
+[2022-08-29T19:56:59.895-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:56:59.895-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:56:59.905-0400] {processor.py:650} INFO - DAG(s) dict_keys(['dag_with_catchup_backfill_v02']) retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:56:59.958-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:56:59.958-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T19:57:00.007-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:57:00.007-0400] {dag.py:2977} INFO - Setting next_dagrun for dag_with_catchup_backfill_v02 to 2022-08-31T00:00:00+00:00, run_after=2022-09-01T00:00:00+00:00
+[2022-08-29T19:57:00.047-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py took 0.159 seconds
+[2022-08-29T19:57:30.724-0400] {processor.py:153} INFO - Started process (PID=11803) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:57:30.729-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py for tasks to queue
+[2022-08-29T19:57:30.730-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:57:30.730-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:57:30.747-0400] {processor.py:650} INFO - DAG(s) dict_keys(['dag_with_catchup_backfill_v02']) retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:57:30.797-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:57:30.797-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T19:57:30.837-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:57:30.837-0400] {dag.py:2977} INFO - Setting next_dagrun for dag_with_catchup_backfill_v02 to 2022-08-31T00:00:00+00:00, run_after=2022-09-01T00:00:00+00:00
+[2022-08-29T19:57:30.876-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py took 0.158 seconds
+[2022-08-29T19:58:01.827-0400] {processor.py:153} INFO - Started process (PID=11824) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:58:01.831-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py for tasks to queue
+[2022-08-29T19:58:01.832-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:58:01.832-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:58:01.844-0400] {processor.py:650} INFO - DAG(s) dict_keys(['dag_with_catchup_backfill_v02']) retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:58:01.890-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:58:01.890-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T19:58:01.930-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:58:01.929-0400] {dag.py:2977} INFO - Setting next_dagrun for dag_with_catchup_backfill_v02 to 2022-08-31T00:00:00+00:00, run_after=2022-09-01T00:00:00+00:00
+[2022-08-29T19:58:01.990-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py took 0.170 seconds
+[2022-08-29T19:58:32.708-0400] {processor.py:153} INFO - Started process (PID=11842) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:58:32.729-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py for tasks to queue
+[2022-08-29T19:58:32.730-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:58:32.730-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:58:32.746-0400] {processor.py:650} INFO - DAG(s) dict_keys(['dag_with_catchup_backfill_v02']) retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:58:32.796-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:58:32.796-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T19:58:32.845-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:58:32.844-0400] {dag.py:2977} INFO - Setting next_dagrun for dag_with_catchup_backfill_v02 to 2022-08-31T00:00:00+00:00, run_after=2022-09-01T00:00:00+00:00
+[2022-08-29T19:58:32.886-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py took 0.182 seconds
+[2022-08-29T19:59:03.649-0400] {processor.py:153} INFO - Started process (PID=11873) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:59:03.653-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py for tasks to queue
+[2022-08-29T19:59:03.654-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:59:03.654-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:59:03.665-0400] {processor.py:650} INFO - DAG(s) dict_keys(['dag_with_catchup_backfill_v02']) retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:59:03.712-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:59:03.711-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T19:59:03.757-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:59:03.757-0400] {dag.py:2977} INFO - Setting next_dagrun for dag_with_catchup_backfill_v02 to 2022-08-31T00:00:00+00:00, run_after=2022-09-01T00:00:00+00:00
+[2022-08-29T19:59:03.824-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py took 0.180 seconds
+[2022-08-29T19:59:34.552-0400] {processor.py:153} INFO - Started process (PID=11898) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:59:34.557-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py for tasks to queue
+[2022-08-29T19:59:34.558-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:59:34.558-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:59:34.570-0400] {processor.py:650} INFO - DAG(s) dict_keys(['dag_with_catchup_backfill_v02']) retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py
+[2022-08-29T19:59:34.616-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:59:34.616-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T19:59:34.654-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:59:34.654-0400] {dag.py:2977} INFO - Setting next_dagrun for dag_with_catchup_backfill_v02 to 2022-08-31T00:00:00+00:00, run_after=2022-09-01T00:00:00+00:00
+[2022-08-29T19:59:34.697-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_catchup_and_backfill_v02.py took 0.149 seconds

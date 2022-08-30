@@ -1,0 +1,382 @@
+[2022-08-29T19:38:58.836-0400] {processor.py:153} INFO - Started process (PID=10695) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py
+[2022-08-29T19:38:58.838-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py for tasks to queue
+[2022-08-29T19:38:58.839-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:38:58.839-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py
+[2022-08-29T19:38:58.852-0400] {processor.py:650} INFO - DAG(s) dict_keys(['dag_with_cron_expression_v02']) retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py
+[2022-08-29T19:38:59.005-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:38:59.005-0400] {manager.py:420} ERROR - Add View Menu Error: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "serialized_dag_pkey"
+DETAIL:  Key (dag_id)=(dag_with_cron_expression_v02) already exists.
+
+[SQL: INSERT INTO serialized_dag (dag_id, fileloc, fileloc_hash, data, data_compressed, last_updated, dag_hash) VALUES (%(dag_id)s, %(fileloc)s, %(fileloc_hash)s, %(data)s, %(data_compressed)s, %(last_updated)s, %(dag_hash)s)]
+[parameters: {'dag_id': 'dag_with_cron_expression_v02', 'fileloc': '/home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py', 'fileloc_hash': 69155490610448173, 'data': '{"__version": 1, "dag": {"timezone": "UTC", "fileloc": "/home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py", "_task_group": {" ... (1018 characters truncated) ... ask_module": "airflow.operators.bash", "_is_empty": false, "bash_command": "echo dag with cron expression!"}], "dag_dependencies": [], "params": {}}}', 'data_compressed': None, 'last_updated': datetime.datetime(2022, 8, 29, 23, 38, 58, 884419, tzinfo=Timezone('UTC')), 'dag_hash': '0557dfbe04cdee384b58cdf345c5c3c0'}]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)
+[2022-08-29T19:38:59.046-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:38:59.046-0400] {manager.py:508} INFO - Created Permission View: can delete on None
+[2022-08-29T19:38:59.073-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:38:59.072-0400] {manager.py:511} ERROR - Creation of Permission View Error: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "ab_permission_view_permission_id_view_menu_id_key"
+DETAIL:  Key (permission_id, view_menu_id)=(2, 144) already exists.
+
+[SQL: INSERT INTO ab_permission_view (id, permission_id, view_menu_id) VALUES (nextval('ab_permission_view_id_seq'), %(permission_id)s, %(view_menu_id)s) RETURNING ab_permission_view.id]
+[parameters: {'permission_id': 2, 'view_menu_id': 144}]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)
+[2022-08-29T19:38:59.115-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:38:59.114-0400] {manager.py:511} ERROR - Creation of Permission View Error: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "ab_permission_view_permission_id_view_menu_id_key"
+DETAIL:  Key (permission_id, view_menu_id)=(1, 144) already exists.
+
+[SQL: INSERT INTO ab_permission_view (id, permission_id, view_menu_id) VALUES (nextval('ab_permission_view_id_seq'), %(permission_id)s, %(view_menu_id)s) RETURNING ab_permission_view.id]
+[parameters: {'permission_id': 1, 'view_menu_id': 144}]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)
+[2022-08-29T19:38:59.116-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:38:59.116-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T19:38:59.143-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:38:59.143-0400] {dag.py:2448} INFO - Creating ORM DAG for dag_with_cron_expression_v02
+[2022-08-29T19:38:59.175-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:38:59.175-0400] {dag.py:2977} INFO - Setting next_dagrun for dag_with_cron_expression_v02 to 2022-08-29T00:00:00+00:00, run_after=2022-08-30T00:00:00+00:00
+[2022-08-29T19:38:59.296-0400] {logging_mixin.py:115} WARNING - /home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/models/dagbag.py:610 DeprecationWarning: DAG.full_filepath is deprecated in favour of fileloc
+[2022-08-29T19:38:59.304-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:38:59.297-0400] {dagbag.py:610} ERROR - Failed to write serialized DAG: /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py
+Traceback (most recent call last):
+  File "/home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/models/dagbag.py", line 599, in _serialize_dag_capturing_errors
+    dag_was_updated = SerializedDagModel.write_dag(
+  File "/home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/utils/session.py", line 68, in wrapper
+    return func(*args, **kwargs)
+  File "/home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/models/serialized_dag.py", line 138, in write_dag
+    session.query(literal(True))
+  File "/home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/sqlalchemy/orm/query.py", line 2810, in first
+    return self.limit(1)._iter().first()
+  File "/home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/sqlalchemy/orm/query.py", line 2894, in _iter
+    result = self.session.execute(
+  File "/home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/sqlalchemy/orm/session.py", line 1688, in execute
+    conn = self._connection_for_bind(bind)
+  File "/home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/sqlalchemy/orm/session.py", line 1529, in _connection_for_bind
+    return self._transaction._connection_for_bind(
+  File "/home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/sqlalchemy/orm/session.py", line 721, in _connection_for_bind
+    self._assert_active()
+  File "/home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/sqlalchemy/orm/session.py", line 601, in _assert_active
+    raise sa_exc.PendingRollbackError(
+sqlalchemy.exc.PendingRollbackError: This Session's transaction has been rolled back due to a previous exception during flush. To begin a new transaction with this Session, first issue Session.rollback(). Original exception was: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "dag_pkey"
+DETAIL:  Key (dag_id)=(dag_with_cron_expression_v02) already exists.
+
+[SQL: INSERT INTO dag (dag_id, root_dag_id, is_paused, is_subdag, is_active, last_parsed_time, last_pickled, last_expired, scheduler_lock, pickle_id, fileloc, owners, description, default_view, schedule_interval, timetable_description, max_active_tasks, max_active_runs, has_task_concurrency_limits, has_import_errors, next_dagrun, next_dagrun_data_interval_start, next_dagrun_data_interval_end, next_dagrun_create_after) VALUES (%(dag_id)s, %(root_dag_id)s, %(is_paused)s, %(is_subdag)s, %(is_active)s, %(last_parsed_time)s, %(last_pickled)s, %(last_expired)s, %(scheduler_lock)s, %(pickle_id)s, %(fileloc)s, %(owners)s, %(description)s, %(default_view)s, %(schedule_interval)s, %(timetable_description)s, %(max_active_tasks)s, %(max_active_runs)s, %(has_task_concurrency_limits)s, %(has_import_errors)s, %(next_dagrun)s, %(next_dagrun_data_interval_start)s, %(next_dagrun_data_interval_end)s, %(next_dagrun_create_after)s)]
+[parameters: {'dag_id': 'dag_with_cron_expression_v02', 'root_dag_id': None, 'is_paused': True, 'is_subdag': False, 'is_active': True, 'last_parsed_time': datetime.datetime(2022, 8, 29, 23, 38, 59, 171369, tzinfo=Timezone('UTC')), 'last_pickled': None, 'last_expired': None, 'scheduler_lock': None, 'pickle_id': None, 'fileloc': '/home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py', 'owners': 'admin', 'description': None, 'default_view': 'grid', 'schedule_interval': '"0 0 * * *"', 'timetable_description': 'At 00:00', 'max_active_tasks': 16, 'max_active_runs': 16, 'has_task_concurrency_limits': False, 'has_import_errors': False, 'next_dagrun': DateTime(2022, 8, 29, 0, 0, 0, tzinfo=Timezone('UTC')), 'next_dagrun_data_interval_start': DateTime(2022, 8, 29, 0, 0, 0, tzinfo=Timezone('UTC')), 'next_dagrun_data_interval_end': DateTime(2022, 8, 30, 0, 0, 0, tzinfo=Timezone('UTC')), 'next_dagrun_create_after': DateTime(2022, 8, 30, 0, 0, 0, tzinfo=Timezone('UTC'))}]
+(Background on this error at: https://sqlalche.me/e/14/gkpj) (Background on this error at: https://sqlalche.me/e/14/7s2a)
+[2022-08-29T19:38:59.305-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:38:59.305-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T19:38:59.306-0400] {processor.py:164} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/dag_processing/processor.py", line 155, in _run_file_processor
+    result: Tuple[int, int] = dag_file_processor.process_file(
+  File "/home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/utils/session.py", line 71, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/dag_processing/processor.py", line 659, in process_file
+    dagbag.sync_to_db()
+  File "/home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/utils/session.py", line 71, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/models/dagbag.py", line 616, in sync_to_db
+    for attempt in run_with_db_retries(logger=self.log):
+  File "/home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/tenacity/__init__.py", line 382, in __iter__
+    do = self.iter(retry_state=retry_state)
+  File "/home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/tenacity/__init__.py", line 349, in iter
+    return fut.result()
+  File "/usr/lib/python3.9/concurrent/futures/_base.py", line 438, in result
+    return self.__get_result()
+  File "/usr/lib/python3.9/concurrent/futures/_base.py", line 390, in __get_result
+    raise self._exception
+  File "/home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/models/dagbag.py", line 630, in sync_to_db
+    DAG.bulk_write_to_db(self.dags.values(), session=session)
+  File "/home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/utils/session.py", line 68, in wrapper
+    return func(*args, **kwargs)
+  File "/home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/models/dag.py", line 2437, in bulk_write_to_db
+    orm_dags: List[DagModel] = with_row_locks(query, of=DagModel, session=session).all()
+  File "/home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/sqlalchemy/orm/query.py", line 2759, in all
+    return self._iter().all()
+  File "/home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/sqlalchemy/orm/query.py", line 2894, in _iter
+    result = self.session.execute(
+  File "/home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/sqlalchemy/orm/session.py", line 1688, in execute
+    conn = self._connection_for_bind(bind)
+  File "/home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/sqlalchemy/orm/session.py", line 1529, in _connection_for_bind
+    return self._transaction._connection_for_bind(
+  File "/home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/sqlalchemy/orm/session.py", line 721, in _connection_for_bind
+    self._assert_active()
+  File "/home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/sqlalchemy/orm/session.py", line 601, in _assert_active
+    raise sa_exc.PendingRollbackError(
+sqlalchemy.exc.PendingRollbackError: This Session's transaction has been rolled back due to a previous exception during flush. To begin a new transaction with this Session, first issue Session.rollback(). Original exception was: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "dag_pkey"
+DETAIL:  Key (dag_id)=(dag_with_cron_expression_v02) already exists.
+
+[SQL: INSERT INTO dag (dag_id, root_dag_id, is_paused, is_subdag, is_active, last_parsed_time, last_pickled, last_expired, scheduler_lock, pickle_id, fileloc, owners, description, default_view, schedule_interval, timetable_description, max_active_tasks, max_active_runs, has_task_concurrency_limits, has_import_errors, next_dagrun, next_dagrun_data_interval_start, next_dagrun_data_interval_end, next_dagrun_create_after) VALUES (%(dag_id)s, %(root_dag_id)s, %(is_paused)s, %(is_subdag)s, %(is_active)s, %(last_parsed_time)s, %(last_pickled)s, %(last_expired)s, %(scheduler_lock)s, %(pickle_id)s, %(fileloc)s, %(owners)s, %(description)s, %(default_view)s, %(schedule_interval)s, %(timetable_description)s, %(max_active_tasks)s, %(max_active_runs)s, %(has_task_concurrency_limits)s, %(has_import_errors)s, %(next_dagrun)s, %(next_dagrun_data_interval_start)s, %(next_dagrun_data_interval_end)s, %(next_dagrun_create_after)s)]
+[parameters: {'dag_id': 'dag_with_cron_expression_v02', 'root_dag_id': None, 'is_paused': True, 'is_subdag': False, 'is_active': True, 'last_parsed_time': datetime.datetime(2022, 8, 29, 23, 38, 59, 171369, tzinfo=Timezone('UTC')), 'last_pickled': None, 'last_expired': None, 'scheduler_lock': None, 'pickle_id': None, 'fileloc': '/home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py', 'owners': 'admin', 'description': None, 'default_view': 'grid', 'schedule_interval': '"0 0 * * *"', 'timetable_description': 'At 00:00', 'max_active_tasks': 16, 'max_active_runs': 16, 'has_task_concurrency_limits': False, 'has_import_errors': False, 'next_dagrun': DateTime(2022, 8, 29, 0, 0, 0, tzinfo=Timezone('UTC')), 'next_dagrun_data_interval_start': DateTime(2022, 8, 29, 0, 0, 0, tzinfo=Timezone('UTC')), 'next_dagrun_data_interval_end': DateTime(2022, 8, 30, 0, 0, 0, tzinfo=Timezone('UTC')), 'next_dagrun_create_after': DateTime(2022, 8, 30, 0, 0, 0, tzinfo=Timezone('UTC'))}]
+(Background on this error at: https://sqlalche.me/e/14/gkpj) (Background on this error at: https://sqlalche.me/e/14/7s2a)
+[2022-08-29T19:39:29.568-0400] {processor.py:153} INFO - Started process (PID=10717) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py
+[2022-08-29T19:39:29.571-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py for tasks to queue
+[2022-08-29T19:39:29.572-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:39:29.572-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py
+[2022-08-29T19:39:29.591-0400] {processor.py:650} INFO - DAG(s) dict_keys(['dag_with_cron_expression_v02']) retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py
+[2022-08-29T19:39:29.767-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:39:29.767-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T19:39:29.827-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:39:29.827-0400] {dag.py:2977} INFO - Setting next_dagrun for dag_with_cron_expression_v02 to 2022-08-30T03:00:00+00:00, run_after=2022-09-06T03:00:00+00:00
+[2022-08-29T19:39:29.909-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py took 0.348 seconds
+[2022-08-29T19:40:00.030-0400] {processor.py:153} INFO - Started process (PID=10738) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py
+[2022-08-29T19:40:00.032-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py for tasks to queue
+[2022-08-29T19:40:00.034-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:40:00.034-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py
+[2022-08-29T19:40:00.046-0400] {processor.py:650} INFO - DAG(s) dict_keys(['dag_with_cron_expression_v03']) retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py
+[2022-08-29T19:40:00.206-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:40:00.206-0400] {manager.py:508} INFO - Created Permission View: can delete on DAG:dag_with_cron_expression_v03
+[2022-08-29T19:40:00.248-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:40:00.248-0400] {manager.py:508} INFO - Created Permission View: can edit on DAG:dag_with_cron_expression_v03
+[2022-08-29T19:40:00.290-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:40:00.289-0400] {manager.py:508} INFO - Created Permission View: can read on DAG:dag_with_cron_expression_v03
+[2022-08-29T19:40:00.291-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:40:00.291-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T19:40:00.318-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:40:00.318-0400] {dag.py:2448} INFO - Creating ORM DAG for dag_with_cron_expression_v03
+[2022-08-29T19:40:00.353-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:40:00.353-0400] {dag.py:2977} INFO - Setting next_dagrun for dag_with_cron_expression_v03 to 2022-08-30T03:00:00+00:00, run_after=2022-09-06T03:00:00+00:00
+[2022-08-29T19:40:00.408-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py took 0.385 seconds
+[2022-08-29T19:40:31.211-0400] {processor.py:153} INFO - Started process (PID=10756) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py
+[2022-08-29T19:40:31.223-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py for tasks to queue
+[2022-08-29T19:40:31.225-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:40:31.224-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py
+[2022-08-29T19:40:31.238-0400] {processor.py:650} INFO - DAG(s) dict_keys(['dag_with_cron_expression_v03']) retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py
+[2022-08-29T19:40:31.293-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:40:31.293-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T19:40:31.337-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:40:31.337-0400] {dag.py:2977} INFO - Setting next_dagrun for dag_with_cron_expression_v03 to 2022-08-30T03:00:00+00:00, run_after=2022-09-06T03:00:00+00:00
+[2022-08-29T19:40:31.410-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py took 0.205 seconds
+[2022-08-29T19:41:02.000-0400] {processor.py:153} INFO - Started process (PID=10777) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py
+[2022-08-29T19:41:02.012-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py for tasks to queue
+[2022-08-29T19:41:02.013-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:41:02.013-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py
+[2022-08-29T19:41:02.025-0400] {processor.py:650} INFO - DAG(s) dict_keys(['dag_with_cron_expression_v03']) retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py
+[2022-08-29T19:41:02.073-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:41:02.073-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T19:41:02.113-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:41:02.113-0400] {dag.py:2977} INFO - Setting next_dagrun for dag_with_cron_expression_v03 to 2022-08-30T03:00:00+00:00, run_after=2022-09-06T03:00:00+00:00
+[2022-08-29T19:41:02.188-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py took 0.194 seconds
+[2022-08-29T19:41:33.128-0400] {processor.py:153} INFO - Started process (PID=10799) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py
+[2022-08-29T19:41:33.141-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py for tasks to queue
+[2022-08-29T19:41:33.143-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:41:33.142-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py
+[2022-08-29T19:41:33.158-0400] {processor.py:650} INFO - DAG(s) dict_keys(['dag_with_cron_expression_v03']) retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py
+[2022-08-29T19:41:33.220-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:41:33.219-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T19:41:33.262-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:41:33.262-0400] {dag.py:2977} INFO - Setting next_dagrun for dag_with_cron_expression_v03 to 2022-08-30T03:00:00+00:00, run_after=2022-09-06T03:00:00+00:00
+[2022-08-29T19:41:33.322-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py took 0.201 seconds
+[2022-08-29T19:42:03.384-0400] {processor.py:153} INFO - Started process (PID=10817) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py
+[2022-08-29T19:42:03.389-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py for tasks to queue
+[2022-08-29T19:42:03.390-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:42:03.389-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py
+[2022-08-29T19:42:03.404-0400] {processor.py:650} INFO - DAG(s) dict_keys(['dag_with_cron_expression_v03']) retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py
+[2022-08-29T19:42:03.461-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:42:03.460-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T19:42:03.500-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:42:03.500-0400] {dag.py:2977} INFO - Setting next_dagrun for dag_with_cron_expression_v03 to 2022-08-30T03:00:00+00:00, run_after=2022-09-06T03:00:00+00:00
+[2022-08-29T19:42:03.592-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py took 0.215 seconds
+[2022-08-29T19:42:34.224-0400] {processor.py:153} INFO - Started process (PID=10856) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py
+[2022-08-29T19:42:34.229-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py for tasks to queue
+[2022-08-29T19:42:34.230-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:42:34.230-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py
+[2022-08-29T19:42:34.244-0400] {processor.py:650} INFO - DAG(s) dict_keys(['dag_with_cron_expression_v03']) retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py
+[2022-08-29T19:42:34.304-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:42:34.303-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T19:42:34.352-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:42:34.351-0400] {dag.py:2977} INFO - Setting next_dagrun for dag_with_cron_expression_v03 to 2022-08-30T03:00:00+00:00, run_after=2022-09-06T03:00:00+00:00
+[2022-08-29T19:42:34.397-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py took 0.178 seconds
+[2022-08-29T19:43:05.067-0400] {processor.py:153} INFO - Started process (PID=10873) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py
+[2022-08-29T19:43:05.071-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py for tasks to queue
+[2022-08-29T19:43:05.072-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:43:05.072-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py
+[2022-08-29T19:43:05.088-0400] {processor.py:650} INFO - DAG(s) dict_keys(['dag_with_cron_expression_v03']) retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py
+[2022-08-29T19:43:05.146-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:43:05.145-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T19:43:05.193-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:43:05.192-0400] {dag.py:2977} INFO - Setting next_dagrun for dag_with_cron_expression_v03 to 2022-08-30T03:00:00+00:00, run_after=2022-09-06T03:00:00+00:00
+[2022-08-29T19:43:05.269-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py took 0.207 seconds
+[2022-08-29T19:43:35.962-0400] {processor.py:153} INFO - Started process (PID=10899) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py
+[2022-08-29T19:43:35.967-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py for tasks to queue
+[2022-08-29T19:43:35.969-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:43:35.968-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py
+[2022-08-29T19:43:35.981-0400] {processor.py:650} INFO - DAG(s) dict_keys(['dag_with_cron_expression_v03']) retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py
+[2022-08-29T19:43:36.040-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:43:36.040-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T19:43:36.080-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:43:36.079-0400] {dag.py:2977} INFO - Setting next_dagrun for dag_with_cron_expression_v03 to 2022-08-30T03:00:00+00:00, run_after=2022-09-06T03:00:00+00:00
+[2022-08-29T19:43:36.158-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py took 0.202 seconds
+[2022-08-29T19:44:06.211-0400] {processor.py:153} INFO - Started process (PID=10917) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py
+[2022-08-29T19:44:06.227-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py for tasks to queue
+[2022-08-29T19:44:06.228-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:44:06.228-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py
+[2022-08-29T19:44:06.243-0400] {processor.py:650} INFO - DAG(s) dict_keys(['dag_with_cron_expression_v03']) retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py
+[2022-08-29T19:44:06.298-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:44:06.297-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T19:44:06.331-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:44:06.331-0400] {dag.py:2977} INFO - Setting next_dagrun for dag_with_cron_expression_v03 to 2022-08-30T03:00:00+00:00, run_after=2022-09-06T03:00:00+00:00
+[2022-08-29T19:44:06.368-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py took 0.162 seconds
+[2022-08-29T19:44:37.284-0400] {processor.py:153} INFO - Started process (PID=10954) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py
+[2022-08-29T19:44:37.288-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py for tasks to queue
+[2022-08-29T19:44:37.290-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:44:37.289-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py
+[2022-08-29T19:44:37.304-0400] {processor.py:650} INFO - DAG(s) dict_keys(['dag_with_cron_expression_v03']) retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py
+[2022-08-29T19:44:37.362-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:44:37.362-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T19:44:37.409-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:44:37.408-0400] {dag.py:2977} INFO - Setting next_dagrun for dag_with_cron_expression_v03 to 2022-08-30T03:00:00+00:00, run_after=2022-09-06T03:00:00+00:00
+[2022-08-29T19:44:37.472-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py took 0.194 seconds
+[2022-08-29T19:45:08.053-0400] {processor.py:153} INFO - Started process (PID=10983) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py
+[2022-08-29T19:45:08.058-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py for tasks to queue
+[2022-08-29T19:45:08.059-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:45:08.059-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py
+[2022-08-29T19:45:08.069-0400] {processor.py:650} INFO - DAG(s) dict_keys(['dag_with_cron_expression_v03']) retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py
+[2022-08-29T19:45:08.121-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:45:08.120-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T19:45:08.162-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:45:08.162-0400] {dag.py:2977} INFO - Setting next_dagrun for dag_with_cron_expression_v03 to 2022-08-30T03:00:00+00:00, run_after=2022-09-06T03:00:00+00:00
+[2022-08-29T19:45:08.235-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py took 0.187 seconds
+[2022-08-29T19:45:38.897-0400] {processor.py:153} INFO - Started process (PID=11012) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py
+[2022-08-29T19:45:38.922-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py for tasks to queue
+[2022-08-29T19:45:38.923-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:45:38.923-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py
+[2022-08-29T19:45:38.949-0400] {processor.py:650} INFO - DAG(s) dict_keys(['dag_with_cron_expression_v03']) retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py
+[2022-08-29T19:45:39.007-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:45:39.007-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T19:45:39.055-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:45:39.055-0400] {dag.py:2977} INFO - Setting next_dagrun for dag_with_cron_expression_v03 to 2022-08-30T03:00:00+00:00, run_after=2022-09-06T03:00:00+00:00
+[2022-08-29T19:45:39.140-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py took 0.249 seconds
+[2022-08-29T19:46:09.891-0400] {processor.py:153} INFO - Started process (PID=11049) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py
+[2022-08-29T19:46:09.899-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py for tasks to queue
+[2022-08-29T19:46:09.900-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:46:09.900-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py
+[2022-08-29T19:46:09.918-0400] {processor.py:650} INFO - DAG(s) dict_keys(['dag_with_cron_expression_v03']) retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py
+[2022-08-29T19:46:10.023-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:46:10.022-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T19:46:10.076-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:46:10.076-0400] {dag.py:2977} INFO - Setting next_dagrun for dag_with_cron_expression_v03 to 2022-08-30T03:00:00+00:00, run_after=2022-09-06T03:00:00+00:00
+[2022-08-29T19:46:10.146-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py took 0.261 seconds
+[2022-08-29T19:46:40.714-0400] {processor.py:153} INFO - Started process (PID=11167) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py
+[2022-08-29T19:46:40.747-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py for tasks to queue
+[2022-08-29T19:46:40.749-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:46:40.748-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py
+[2022-08-29T19:46:40.771-0400] {processor.py:650} INFO - DAG(s) dict_keys(['dag_with_cron_expression_v03']) retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py
+[2022-08-29T19:46:40.855-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:46:40.855-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T19:46:40.998-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:46:40.997-0400] {dag.py:2977} INFO - Setting next_dagrun for dag_with_cron_expression_v03 to 2022-08-30T03:00:00+00:00, run_after=2022-09-06T03:00:00+00:00
+[2022-08-29T19:46:41.090-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py took 0.382 seconds
+[2022-08-29T19:47:11.360-0400] {processor.py:153} INFO - Started process (PID=11253) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py
+[2022-08-29T19:47:11.422-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py for tasks to queue
+[2022-08-29T19:47:11.424-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:47:11.423-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py
+[2022-08-29T19:47:11.443-0400] {processor.py:650} INFO - DAG(s) dict_keys(['dag_with_cron_expression_v03']) retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py
+[2022-08-29T19:47:11.512-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:47:11.511-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T19:47:11.578-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:47:11.578-0400] {dag.py:2977} INFO - Setting next_dagrun for dag_with_cron_expression_v03 to 2022-08-30T03:00:00+00:00, run_after=2022-09-06T03:00:00+00:00
+[2022-08-29T19:47:11.673-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py took 0.324 seconds
+[2022-08-29T19:47:42.010-0400] {processor.py:153} INFO - Started process (PID=11335) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py
+[2022-08-29T19:47:42.018-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py for tasks to queue
+[2022-08-29T19:47:42.020-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:47:42.020-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py
+[2022-08-29T19:47:42.063-0400] {processor.py:650} INFO - DAG(s) dict_keys(['dag_with_cron_expression_v03']) retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py
+[2022-08-29T19:47:42.165-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:47:42.164-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T19:47:42.230-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:47:42.229-0400] {dag.py:2977} INFO - Setting next_dagrun for dag_with_cron_expression_v03 to 2022-08-30T03:00:00+00:00, run_after=2022-09-06T03:00:00+00:00
+[2022-08-29T19:47:42.320-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py took 0.323 seconds
+[2022-08-29T19:48:13.200-0400] {processor.py:153} INFO - Started process (PID=11389) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py
+[2022-08-29T19:48:13.205-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py for tasks to queue
+[2022-08-29T19:48:13.206-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:48:13.206-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py
+[2022-08-29T19:48:13.265-0400] {processor.py:650} INFO - DAG(s) dict_keys(['dag_with_cron_expression_v03']) retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py
+[2022-08-29T19:48:13.369-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:48:13.369-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T19:48:13.506-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:48:13.505-0400] {dag.py:2977} INFO - Setting next_dagrun for dag_with_cron_expression_v03 to 2022-08-30T03:00:00+00:00, run_after=2022-09-06T03:00:00+00:00
+[2022-08-29T19:48:13.630-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py took 0.435 seconds
+[2022-08-29T19:48:44.240-0400] {processor.py:153} INFO - Started process (PID=11423) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py
+[2022-08-29T19:48:44.241-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py for tasks to queue
+[2022-08-29T19:48:44.242-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:48:44.241-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py
+[2022-08-29T19:48:44.252-0400] {processor.py:650} INFO - DAG(s) dict_keys(['dag_with_cron_expression_v03']) retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py
+[2022-08-29T19:48:44.299-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:48:44.298-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T19:48:44.337-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:48:44.337-0400] {dag.py:2977} INFO - Setting next_dagrun for dag_with_cron_expression_v03 to 2022-08-30T03:00:00+00:00, run_after=2022-09-06T03:00:00+00:00
+[2022-08-29T19:48:44.403-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py took 0.167 seconds
+[2022-08-29T19:49:15.227-0400] {processor.py:153} INFO - Started process (PID=11445) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py
+[2022-08-29T19:49:15.229-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py for tasks to queue
+[2022-08-29T19:49:15.230-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:49:15.230-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py
+[2022-08-29T19:49:15.244-0400] {processor.py:650} INFO - DAG(s) dict_keys(['dag_with_cron_expression_v03']) retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py
+[2022-08-29T19:49:15.310-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:49:15.309-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T19:49:15.359-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:49:15.358-0400] {dag.py:2977} INFO - Setting next_dagrun for dag_with_cron_expression_v03 to 2022-08-30T03:00:00+00:00, run_after=2022-09-06T03:00:00+00:00
+[2022-08-29T19:49:15.409-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py took 0.189 seconds
+[2022-08-29T19:49:45.592-0400] {processor.py:153} INFO - Started process (PID=11463) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py
+[2022-08-29T19:49:45.598-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py for tasks to queue
+[2022-08-29T19:49:45.599-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:49:45.599-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py
+[2022-08-29T19:49:45.611-0400] {processor.py:650} INFO - DAG(s) dict_keys(['dag_with_cron_expression_v03']) retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py
+[2022-08-29T19:49:45.663-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:49:45.663-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T19:49:45.704-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:49:45.704-0400] {dag.py:2977} INFO - Setting next_dagrun for dag_with_cron_expression_v03 to 2022-08-30T03:00:00+00:00, run_after=2022-09-06T03:00:00+00:00
+[2022-08-29T19:49:45.766-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py took 0.179 seconds
+[2022-08-29T19:50:16.627-0400] {processor.py:153} INFO - Started process (PID=11481) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py
+[2022-08-29T19:50:16.628-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py for tasks to queue
+[2022-08-29T19:50:16.629-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:50:16.628-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py
+[2022-08-29T19:50:16.638-0400] {processor.py:650} INFO - DAG(s) dict_keys(['dag_with_cron_expression_v03']) retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py
+[2022-08-29T19:50:16.683-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:50:16.683-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T19:50:16.721-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:50:16.721-0400] {dag.py:2977} INFO - Setting next_dagrun for dag_with_cron_expression_v03 to 2022-08-30T03:00:00+00:00, run_after=2022-09-06T03:00:00+00:00
+[2022-08-29T19:50:16.827-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py took 0.205 seconds
+[2022-08-29T19:50:47.625-0400] {processor.py:153} INFO - Started process (PID=11499) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py
+[2022-08-29T19:50:47.628-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py for tasks to queue
+[2022-08-29T19:50:47.629-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:50:47.628-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py
+[2022-08-29T19:50:47.642-0400] {processor.py:650} INFO - DAG(s) dict_keys(['dag_with_cron_expression_v03']) retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py
+[2022-08-29T19:50:47.699-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:50:47.699-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T19:50:47.748-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:50:47.747-0400] {dag.py:2977} INFO - Setting next_dagrun for dag_with_cron_expression_v03 to 2022-08-30T03:00:00+00:00, run_after=2022-09-06T03:00:00+00:00
+[2022-08-29T19:50:47.808-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py took 0.188 seconds
+[2022-08-29T19:51:18.742-0400] {processor.py:153} INFO - Started process (PID=11517) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py
+[2022-08-29T19:51:18.750-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py for tasks to queue
+[2022-08-29T19:51:18.751-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:51:18.751-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py
+[2022-08-29T19:51:18.766-0400] {processor.py:650} INFO - DAG(s) dict_keys(['dag_with_cron_expression_v03']) retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py
+[2022-08-29T19:51:18.836-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:51:18.836-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T19:51:18.910-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:51:18.909-0400] {dag.py:2977} INFO - Setting next_dagrun for dag_with_cron_expression_v03 to 2022-08-30T03:00:00+00:00, run_after=2022-09-06T03:00:00+00:00
+[2022-08-29T19:51:18.978-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py took 0.241 seconds
+[2022-08-29T19:51:49.030-0400] {processor.py:153} INFO - Started process (PID=11537) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py
+[2022-08-29T19:51:49.035-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py for tasks to queue
+[2022-08-29T19:51:49.036-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:51:49.036-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py
+[2022-08-29T19:51:49.051-0400] {processor.py:650} INFO - DAG(s) dict_keys(['dag_with_cron_expression_v03']) retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py
+[2022-08-29T19:51:49.105-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:51:49.105-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T19:51:49.161-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:51:49.160-0400] {dag.py:2977} INFO - Setting next_dagrun for dag_with_cron_expression_v03 to 2022-08-30T03:00:00+00:00, run_after=2022-09-06T03:00:00+00:00
+[2022-08-29T19:51:49.231-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py took 0.210 seconds
+[2022-08-29T19:52:19.540-0400] {processor.py:153} INFO - Started process (PID=11555) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py
+[2022-08-29T19:52:19.541-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py for tasks to queue
+[2022-08-29T19:52:19.543-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:52:19.542-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py
+[2022-08-29T19:52:19.558-0400] {processor.py:650} INFO - DAG(s) dict_keys(['dag_with_cron_expression_v03']) retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py
+[2022-08-29T19:52:19.614-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:52:19.614-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T19:52:19.665-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:52:19.665-0400] {dag.py:2977} INFO - Setting next_dagrun for dag_with_cron_expression_v03 to 2022-08-30T03:00:00+00:00, run_after=2022-09-06T03:00:00+00:00
+[2022-08-29T19:52:19.731-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py took 0.198 seconds
+[2022-08-29T19:52:50.741-0400] {processor.py:153} INFO - Started process (PID=11583) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py
+[2022-08-29T19:52:50.743-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py for tasks to queue
+[2022-08-29T19:52:50.744-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:52:50.743-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py
+[2022-08-29T19:52:50.754-0400] {processor.py:650} INFO - DAG(s) dict_keys(['dag_with_cron_expression_v03']) retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py
+[2022-08-29T19:52:50.821-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:52:50.821-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T19:52:50.864-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:52:50.864-0400] {dag.py:2977} INFO - Setting next_dagrun for dag_with_cron_expression_v03 to 2022-08-30T03:00:00+00:00, run_after=2022-09-06T03:00:00+00:00
+[2022-08-29T19:52:50.915-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py took 0.180 seconds
+[2022-08-29T19:53:21.858-0400] {processor.py:153} INFO - Started process (PID=11602) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py
+[2022-08-29T19:53:21.860-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py for tasks to queue
+[2022-08-29T19:53:21.860-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:53:21.860-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py
+[2022-08-29T19:53:21.870-0400] {processor.py:650} INFO - DAG(s) dict_keys(['dag_with_cron_expression_v03']) retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py
+[2022-08-29T19:53:21.918-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:53:21.918-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T19:53:21.962-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:53:21.962-0400] {dag.py:2977} INFO - Setting next_dagrun for dag_with_cron_expression_v03 to 2022-08-30T03:00:00+00:00, run_after=2022-09-06T03:00:00+00:00
+[2022-08-29T19:53:22.022-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py took 0.170 seconds
+[2022-08-29T19:53:52.777-0400] {processor.py:153} INFO - Started process (PID=11629) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py
+[2022-08-29T19:53:52.779-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py for tasks to queue
+[2022-08-29T19:53:52.780-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:53:52.779-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py
+[2022-08-29T19:53:52.790-0400] {processor.py:650} INFO - DAG(s) dict_keys(['dag_with_cron_expression_v03']) retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py
+[2022-08-29T19:53:52.845-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:53:52.844-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T19:53:52.894-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:53:52.894-0400] {dag.py:2977} INFO - Setting next_dagrun for dag_with_cron_expression_v03 to 2022-08-30T03:00:00+00:00, run_after=2022-09-06T03:00:00+00:00
+[2022-08-29T19:53:52.994-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py took 0.221 seconds
+[2022-08-29T19:54:23.777-0400] {processor.py:153} INFO - Started process (PID=11651) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py
+[2022-08-29T19:54:23.790-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py for tasks to queue
+[2022-08-29T19:54:23.791-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:54:23.791-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py
+[2022-08-29T19:54:23.805-0400] {processor.py:650} INFO - DAG(s) dict_keys(['dag_with_cron_expression_v03']) retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py
+[2022-08-29T19:54:23.860-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:54:23.860-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T19:54:23.922-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:54:23.921-0400] {dag.py:2977} INFO - Setting next_dagrun for dag_with_cron_expression_v03 to 2022-08-30T03:00:00+00:00, run_after=2022-09-06T03:00:00+00:00
+[2022-08-29T19:54:24.027-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py took 0.256 seconds
+[2022-08-29T19:54:54.783-0400] {processor.py:153} INFO - Started process (PID=11680) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py
+[2022-08-29T19:54:54.785-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py for tasks to queue
+[2022-08-29T19:54:54.786-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:54:54.786-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py
+[2022-08-29T19:54:54.801-0400] {processor.py:650} INFO - DAG(s) dict_keys(['dag_with_cron_expression_v03']) retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py
+[2022-08-29T19:54:54.855-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:54:54.855-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T19:54:54.901-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:54:54.901-0400] {dag.py:2977} INFO - Setting next_dagrun for dag_with_cron_expression_v03 to 2022-08-30T03:00:00+00:00, run_after=2022-09-06T03:00:00+00:00
+[2022-08-29T19:54:55.011-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py took 0.234 seconds
+[2022-08-29T19:55:25.634-0400] {processor.py:153} INFO - Started process (PID=11705) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py
+[2022-08-29T19:55:25.635-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py for tasks to queue
+[2022-08-29T19:55:25.636-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:55:25.636-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py
+[2022-08-29T19:55:25.646-0400] {processor.py:650} INFO - DAG(s) dict_keys(['dag_with_cron_expression_v03']) retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py
+[2022-08-29T19:55:25.698-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:55:25.698-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T19:55:25.739-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:55:25.739-0400] {dag.py:2977} INFO - Setting next_dagrun for dag_with_cron_expression_v03 to 2022-08-30T03:00:00+00:00, run_after=2022-09-06T03:00:00+00:00
+[2022-08-29T19:55:25.817-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py took 0.187 seconds
+[2022-08-29T19:55:56.692-0400] {processor.py:153} INFO - Started process (PID=11723) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py
+[2022-08-29T19:55:56.704-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py for tasks to queue
+[2022-08-29T19:55:56.705-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:55:56.705-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py
+[2022-08-29T19:55:56.721-0400] {processor.py:650} INFO - DAG(s) dict_keys(['dag_with_cron_expression_v03']) retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py
+[2022-08-29T19:55:56.775-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:55:56.775-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T19:55:56.848-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:55:56.847-0400] {dag.py:2977} INFO - Setting next_dagrun for dag_with_cron_expression_v03 to 2022-08-30T03:00:00+00:00, run_after=2022-09-06T03:00:00+00:00
+[2022-08-29T19:55:56.937-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py took 0.250 seconds
+[2022-08-29T19:56:27.629-0400] {processor.py:153} INFO - Started process (PID=11741) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py
+[2022-08-29T19:56:27.630-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py for tasks to queue
+[2022-08-29T19:56:27.632-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:56:27.631-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py
+[2022-08-29T19:56:27.646-0400] {processor.py:650} INFO - DAG(s) dict_keys(['dag_with_cron_expression_v03']) retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py
+[2022-08-29T19:56:27.695-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:56:27.694-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T19:56:27.730-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:56:27.730-0400] {dag.py:2977} INFO - Setting next_dagrun for dag_with_cron_expression_v03 to 2022-08-30T03:00:00+00:00, run_after=2022-09-06T03:00:00+00:00
+[2022-08-29T19:56:27.826-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py took 0.201 seconds
+[2022-08-29T19:56:58.466-0400] {processor.py:153} INFO - Started process (PID=11768) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py
+[2022-08-29T19:56:58.467-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py for tasks to queue
+[2022-08-29T19:56:58.469-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:56:58.468-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py
+[2022-08-29T19:56:58.484-0400] {processor.py:650} INFO - DAG(s) dict_keys(['dag_with_cron_expression_v03']) retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py
+[2022-08-29T19:56:58.532-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:56:58.532-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T19:56:58.572-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:56:58.571-0400] {dag.py:2977} INFO - Setting next_dagrun for dag_with_cron_expression_v03 to 2022-08-30T03:00:00+00:00, run_after=2022-09-06T03:00:00+00:00
+[2022-08-29T19:56:58.638-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py took 0.178 seconds
+[2022-08-29T19:57:29.335-0400] {processor.py:153} INFO - Started process (PID=11797) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py
+[2022-08-29T19:57:29.336-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py for tasks to queue
+[2022-08-29T19:57:29.337-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:57:29.337-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py
+[2022-08-29T19:57:29.348-0400] {processor.py:650} INFO - DAG(s) dict_keys(['dag_with_cron_expression_v03']) retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py
+[2022-08-29T19:57:29.397-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:57:29.397-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T19:57:29.435-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:57:29.434-0400] {dag.py:2977} INFO - Setting next_dagrun for dag_with_cron_expression_v03 to 2022-08-30T03:00:00+00:00, run_after=2022-09-06T03:00:00+00:00
+[2022-08-29T19:57:29.510-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py took 0.179 seconds
+[2022-08-29T19:58:00.431-0400] {processor.py:153} INFO - Started process (PID=11821) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py
+[2022-08-29T19:58:00.432-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py for tasks to queue
+[2022-08-29T19:58:00.434-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:58:00.433-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py
+[2022-08-29T19:58:00.445-0400] {processor.py:650} INFO - DAG(s) dict_keys(['dag_with_cron_expression_v03']) retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py
+[2022-08-29T19:58:00.500-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:58:00.500-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T19:58:00.541-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:58:00.540-0400] {dag.py:2977} INFO - Setting next_dagrun for dag_with_cron_expression_v03 to 2022-08-30T03:00:00+00:00, run_after=2022-09-06T03:00:00+00:00
+[2022-08-29T19:58:00.639-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py took 0.214 seconds
+[2022-08-29T19:58:31.360-0400] {processor.py:153} INFO - Started process (PID=11839) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py
+[2022-08-29T19:58:31.361-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py for tasks to queue
+[2022-08-29T19:58:31.362-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:58:31.362-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py
+[2022-08-29T19:58:31.372-0400] {processor.py:650} INFO - DAG(s) dict_keys(['dag_with_cron_expression_v03']) retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py
+[2022-08-29T19:58:31.418-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:58:31.418-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T19:58:31.457-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:58:31.457-0400] {dag.py:2977} INFO - Setting next_dagrun for dag_with_cron_expression_v03 to 2022-08-30T03:00:00+00:00, run_after=2022-09-06T03:00:00+00:00
+[2022-08-29T19:58:31.529-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py took 0.174 seconds
+[2022-08-29T19:59:02.209-0400] {processor.py:153} INFO - Started process (PID=11870) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py
+[2022-08-29T19:59:02.222-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py for tasks to queue
+[2022-08-29T19:59:02.224-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:59:02.224-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py
+[2022-08-29T19:59:02.234-0400] {processor.py:650} INFO - DAG(s) dict_keys(['dag_with_cron_expression_v03']) retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py
+[2022-08-29T19:59:02.283-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:59:02.283-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T19:59:02.321-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:59:02.321-0400] {dag.py:2977} INFO - Setting next_dagrun for dag_with_cron_expression_v03 to 2022-08-30T03:00:00+00:00, run_after=2022-09-06T03:00:00+00:00
+[2022-08-29T19:59:02.395-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py took 0.191 seconds
+[2022-08-29T19:59:33.202-0400] {processor.py:153} INFO - Started process (PID=11895) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py
+[2022-08-29T19:59:33.204-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py for tasks to queue
+[2022-08-29T19:59:33.205-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:59:33.205-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py
+[2022-08-29T19:59:33.220-0400] {processor.py:650} INFO - DAG(s) dict_keys(['dag_with_cron_expression_v03']) retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py
+[2022-08-29T19:59:33.268-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:59:33.268-0400] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-08-29T19:59:33.303-0400] {logging_mixin.py:115} INFO - [2022-08-29T19:59:33.302-0400] {dag.py:2977} INFO - Setting next_dagrun for dag_with_cron_expression_v03 to 2022-08-30T03:00:00+00:00, run_after=2022-09-06T03:00:00+00:00
+[2022-08-29T19:59:33.337-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_cron_expression_v03.py took 0.139 seconds

@@ -1,0 +1,176 @@
+[2022-08-29T20:03:14.289-0400] {processor.py:153} INFO - Started process (PID=12076) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_postgres_operator.py
+[2022-08-29T20:03:14.290-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_postgres_operator.py for tasks to queue
+[2022-08-29T20:03:14.291-0400] {logging_mixin.py:115} INFO - [2022-08-29T20:03:14.291-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_postgres_operator.py
+[2022-08-29T20:03:14.335-0400] {logging_mixin.py:115} INFO - [2022-08-29T20:03:14.332-0400] {dagbag.py:321} ERROR - Failed to import: /home/augenz/PycharmProjects/airflow/dags/dag_with_postgres_operator.py
+Traceback (most recent call last):
+  File "/home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/augenz/PycharmProjects/airflow/dags/dag_with_postgres_operator.py", line 30, in <module>
+    task2 = PostgresOperator(
+  File "/home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 373, in apply_defaults
+    raise AirflowException(f"missing keyword argument {missing_args.pop()!r}")
+airflow.exceptions.AirflowException: missing keyword argument 'sql'
+[2022-08-29T20:03:14.335-0400] {processor.py:652} WARNING - No viable dags retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_postgres_operator.py
+[2022-08-29T20:03:14.406-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_postgres_operator.py took 0.121 seconds
+[2022-08-29T20:03:44.746-0400] {processor.py:153} INFO - Started process (PID=12095) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_postgres_operator.py
+[2022-08-29T20:03:44.748-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_postgres_operator.py for tasks to queue
+[2022-08-29T20:03:44.749-0400] {logging_mixin.py:115} INFO - [2022-08-29T20:03:44.748-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_postgres_operator.py
+[2022-08-29T20:03:44.805-0400] {logging_mixin.py:115} INFO - [2022-08-29T20:03:44.803-0400] {dagbag.py:321} ERROR - Failed to import: /home/augenz/PycharmProjects/airflow/dags/dag_with_postgres_operator.py
+Traceback (most recent call last):
+  File "/home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/augenz/PycharmProjects/airflow/dags/dag_with_postgres_operator.py", line 30, in <module>
+    task2 = PostgresOperator(
+  File "/home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 373, in apply_defaults
+    raise AirflowException(f"missing keyword argument {missing_args.pop()!r}")
+airflow.exceptions.AirflowException: missing keyword argument 'sql'
+[2022-08-29T20:03:44.806-0400] {processor.py:652} WARNING - No viable dags retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_postgres_operator.py
+[2022-08-29T20:03:44.869-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_postgres_operator.py took 0.127 seconds
+[2022-08-29T20:04:14.929-0400] {processor.py:153} INFO - Started process (PID=12106) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_postgres_operator.py
+[2022-08-29T20:04:14.934-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_postgres_operator.py for tasks to queue
+[2022-08-29T20:04:14.935-0400] {logging_mixin.py:115} INFO - [2022-08-29T20:04:14.935-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_postgres_operator.py
+[2022-08-29T20:04:15.028-0400] {logging_mixin.py:115} INFO - [2022-08-29T20:04:15.025-0400] {dagbag.py:321} ERROR - Failed to import: /home/augenz/PycharmProjects/airflow/dags/dag_with_postgres_operator.py
+Traceback (most recent call last):
+  File "/home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/augenz/PycharmProjects/airflow/dags/dag_with_postgres_operator.py", line 30, in <module>
+    task2 = PostgresOperator(
+  File "/home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 373, in apply_defaults
+    raise AirflowException(f"missing keyword argument {missing_args.pop()!r}")
+airflow.exceptions.AirflowException: missing keyword argument 'sql'
+[2022-08-29T20:04:15.029-0400] {processor.py:652} WARNING - No viable dags retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_postgres_operator.py
+[2022-08-29T20:04:15.124-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_postgres_operator.py took 0.203 seconds
+[2022-08-29T20:04:46.000-0400] {processor.py:153} INFO - Started process (PID=12125) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_postgres_operator.py
+[2022-08-29T20:04:46.004-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_postgres_operator.py for tasks to queue
+[2022-08-29T20:04:46.004-0400] {logging_mixin.py:115} INFO - [2022-08-29T20:04:46.004-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_postgres_operator.py
+[2022-08-29T20:04:46.063-0400] {logging_mixin.py:115} INFO - [2022-08-29T20:04:46.060-0400] {dagbag.py:321} ERROR - Failed to import: /home/augenz/PycharmProjects/airflow/dags/dag_with_postgres_operator.py
+Traceback (most recent call last):
+  File "/home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/augenz/PycharmProjects/airflow/dags/dag_with_postgres_operator.py", line 30, in <module>
+    task2 = PostgresOperator(
+  File "/home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 373, in apply_defaults
+    raise AirflowException(f"missing keyword argument {missing_args.pop()!r}")
+airflow.exceptions.AirflowException: missing keyword argument 'sql'
+[2022-08-29T20:04:46.063-0400] {processor.py:652} WARNING - No viable dags retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_postgres_operator.py
+[2022-08-29T20:04:46.137-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_postgres_operator.py took 0.141 seconds
+[2022-08-29T20:05:16.300-0400] {processor.py:153} INFO - Started process (PID=12163) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_postgres_operator.py
+[2022-08-29T20:05:16.302-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_postgres_operator.py for tasks to queue
+[2022-08-29T20:05:16.303-0400] {logging_mixin.py:115} INFO - [2022-08-29T20:05:16.303-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_postgres_operator.py
+[2022-08-29T20:05:16.378-0400] {logging_mixin.py:115} INFO - [2022-08-29T20:05:16.376-0400] {dagbag.py:321} ERROR - Failed to import: /home/augenz/PycharmProjects/airflow/dags/dag_with_postgres_operator.py
+Traceback (most recent call last):
+  File "/home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/augenz/PycharmProjects/airflow/dags/dag_with_postgres_operator.py", line 30, in <module>
+    task2 = PostgresOperator(
+  File "/home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 373, in apply_defaults
+    raise AirflowException(f"missing keyword argument {missing_args.pop()!r}")
+airflow.exceptions.AirflowException: missing keyword argument 'sql'
+[2022-08-29T20:05:16.379-0400] {processor.py:652} WARNING - No viable dags retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_postgres_operator.py
+[2022-08-29T20:05:16.451-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_postgres_operator.py took 0.157 seconds
+[2022-08-29T20:05:46.573-0400] {processor.py:153} INFO - Started process (PID=12195) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_postgres_operator.py
+[2022-08-29T20:05:46.574-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_postgres_operator.py for tasks to queue
+[2022-08-29T20:05:46.575-0400] {logging_mixin.py:115} INFO - [2022-08-29T20:05:46.575-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_postgres_operator.py
+[2022-08-29T20:05:46.640-0400] {logging_mixin.py:115} INFO - [2022-08-29T20:05:46.637-0400] {dagbag.py:321} ERROR - Failed to import: /home/augenz/PycharmProjects/airflow/dags/dag_with_postgres_operator.py
+Traceback (most recent call last):
+  File "/home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/augenz/PycharmProjects/airflow/dags/dag_with_postgres_operator.py", line 30, in <module>
+    task2 = PostgresOperator(
+  File "/home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 373, in apply_defaults
+    raise AirflowException(f"missing keyword argument {missing_args.pop()!r}")
+airflow.exceptions.AirflowException: missing keyword argument 'sql'
+[2022-08-29T20:05:46.641-0400] {processor.py:652} WARNING - No viable dags retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_postgres_operator.py
+[2022-08-29T20:05:46.706-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_postgres_operator.py took 0.138 seconds
+[2022-08-29T20:06:16.891-0400] {processor.py:153} INFO - Started process (PID=12222) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_postgres_operator.py
+[2022-08-29T20:06:16.894-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_postgres_operator.py for tasks to queue
+[2022-08-29T20:06:16.895-0400] {logging_mixin.py:115} INFO - [2022-08-29T20:06:16.895-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_postgres_operator.py
+[2022-08-29T20:06:16.934-0400] {logging_mixin.py:115} INFO - [2022-08-29T20:06:16.932-0400] {dagbag.py:321} ERROR - Failed to import: /home/augenz/PycharmProjects/airflow/dags/dag_with_postgres_operator.py
+Traceback (most recent call last):
+  File "/home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/augenz/PycharmProjects/airflow/dags/dag_with_postgres_operator.py", line 30, in <module>
+    task2 = PostgresOperator(
+  File "/home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 373, in apply_defaults
+    raise AirflowException(f"missing keyword argument {missing_args.pop()!r}")
+airflow.exceptions.AirflowException: missing keyword argument 'sql'
+[2022-08-29T20:06:16.934-0400] {processor.py:652} WARNING - No viable dags retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_postgres_operator.py
+[2022-08-29T20:06:17.003-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_postgres_operator.py took 0.116 seconds
+[2022-08-29T20:06:47.188-0400] {processor.py:153} INFO - Started process (PID=12247) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_postgres_operator.py
+[2022-08-29T20:06:47.191-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_postgres_operator.py for tasks to queue
+[2022-08-29T20:06:47.192-0400] {logging_mixin.py:115} INFO - [2022-08-29T20:06:47.191-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_postgres_operator.py
+[2022-08-29T20:06:47.229-0400] {logging_mixin.py:115} INFO - [2022-08-29T20:06:47.228-0400] {dagbag.py:321} ERROR - Failed to import: /home/augenz/PycharmProjects/airflow/dags/dag_with_postgres_operator.py
+Traceback (most recent call last):
+  File "/home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/augenz/PycharmProjects/airflow/dags/dag_with_postgres_operator.py", line 30, in <module>
+    task2 = PostgresOperator(
+  File "/home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 373, in apply_defaults
+    raise AirflowException(f"missing keyword argument {missing_args.pop()!r}")
+airflow.exceptions.AirflowException: missing keyword argument 'sql'
+[2022-08-29T20:06:47.230-0400] {processor.py:652} WARNING - No viable dags retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_postgres_operator.py
+[2022-08-29T20:06:47.291-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_postgres_operator.py took 0.107 seconds
+[2022-08-29T20:07:17.980-0400] {processor.py:153} INFO - Started process (PID=12273) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_postgres_operator.py
+[2022-08-29T20:07:17.985-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_postgres_operator.py for tasks to queue
+[2022-08-29T20:07:17.986-0400] {logging_mixin.py:115} INFO - [2022-08-29T20:07:17.986-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_postgres_operator.py
+[2022-08-29T20:07:18.028-0400] {logging_mixin.py:115} INFO - [2022-08-29T20:07:18.026-0400] {dagbag.py:321} ERROR - Failed to import: /home/augenz/PycharmProjects/airflow/dags/dag_with_postgres_operator.py
+Traceback (most recent call last):
+  File "/home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/augenz/PycharmProjects/airflow/dags/dag_with_postgres_operator.py", line 30, in <module>
+    task2 = PostgresOperator(
+  File "/home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 373, in apply_defaults
+    raise AirflowException(f"missing keyword argument {missing_args.pop()!r}")
+airflow.exceptions.AirflowException: missing keyword argument 'sql'
+[2022-08-29T20:07:18.029-0400] {processor.py:652} WARNING - No viable dags retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_postgres_operator.py
+[2022-08-29T20:07:18.113-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_postgres_operator.py took 0.139 seconds
+[2022-08-29T20:07:48.206-0400] {processor.py:153} INFO - Started process (PID=12304) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_postgres_operator.py
+[2022-08-29T20:07:48.211-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_postgres_operator.py for tasks to queue
+[2022-08-29T20:07:48.212-0400] {logging_mixin.py:115} INFO - [2022-08-29T20:07:48.212-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_postgres_operator.py
+[2022-08-29T20:07:48.248-0400] {logging_mixin.py:115} INFO - [2022-08-29T20:07:48.246-0400] {dagbag.py:321} ERROR - Failed to import: /home/augenz/PycharmProjects/airflow/dags/dag_with_postgres_operator.py
+Traceback (most recent call last):
+  File "/home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/augenz/PycharmProjects/airflow/dags/dag_with_postgres_operator.py", line 30, in <module>
+    task2 = PostgresOperator(
+  File "/home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 373, in apply_defaults
+    raise AirflowException(f"missing keyword argument {missing_args.pop()!r}")
+airflow.exceptions.AirflowException: missing keyword argument 'sql'
+[2022-08-29T20:07:48.248-0400] {processor.py:652} WARNING - No viable dags retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_postgres_operator.py
+[2022-08-29T20:07:48.326-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_postgres_operator.py took 0.124 seconds
+[2022-08-29T20:08:18.505-0400] {processor.py:153} INFO - Started process (PID=12329) to work on /home/augenz/PycharmProjects/airflow/dags/dag_with_postgres_operator.py
+[2022-08-29T20:08:18.509-0400] {processor.py:640} INFO - Processing file /home/augenz/PycharmProjects/airflow/dags/dag_with_postgres_operator.py for tasks to queue
+[2022-08-29T20:08:18.512-0400] {logging_mixin.py:115} INFO - [2022-08-29T20:08:18.511-0400] {dagbag.py:508} INFO - Filling up the DagBag from /home/augenz/PycharmProjects/airflow/dags/dag_with_postgres_operator.py
+[2022-08-29T20:08:18.550-0400] {logging_mixin.py:115} INFO - [2022-08-29T20:08:18.548-0400] {dagbag.py:321} ERROR - Failed to import: /home/augenz/PycharmProjects/airflow/dags/dag_with_postgres_operator.py
+Traceback (most recent call last):
+  File "/home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/augenz/PycharmProjects/airflow/dags/dag_with_postgres_operator.py", line 30, in <module>
+    task2 = PostgresOperator(
+  File "/home/augenz/PycharmProjects/airflow/.env_airflow/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 373, in apply_defaults
+    raise AirflowException(f"missing keyword argument {missing_args.pop()!r}")
+airflow.exceptions.AirflowException: missing keyword argument 'sql'
+[2022-08-29T20:08:18.550-0400] {processor.py:652} WARNING - No viable dags retrieved from /home/augenz/PycharmProjects/airflow/dags/dag_with_postgres_operator.py
+[2022-08-29T20:08:18.623-0400] {processor.py:161} INFO - Processing /home/augenz/PycharmProjects/airflow/dags/dag_with_postgres_operator.py took 0.123 seconds
